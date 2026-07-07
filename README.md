@@ -1,6 +1,6 @@
 # Mix Mind v5.0
 
-![Mix Mind v5.0 control flow](docs/mix-mind-infographic.svg)
+![Mix Mind v5.0 control flow](docs/mix-mind-infographic.png)
 
 **Mix Mind v5.0** is a Model Context Protocol server for natural-language control of a **Behringer X-Air 18 / XR18 / X18** mixer, with optional integration for the **Mixing Station** desktop app.
 
