@@ -1,0 +1,3 @@
+# Mix Mind v5.0
+
+Publishing initial project files...
