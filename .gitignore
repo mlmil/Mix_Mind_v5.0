@@ -1,0 +1,28 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Local mixer/session output
+backups/
+*.xair.txt
+
+# Editor state
+.idea/
+.vscode/
+*.swp

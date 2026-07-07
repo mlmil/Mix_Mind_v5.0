@@ -1,0 +1,123 @@
+<svg width="1400" height="760" viewBox="0 0 1400 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mix Mind v5.0 signal and control flow</title>
+  <desc id="desc">Animated diagram showing natural-language prompts flowing through an MCP server into OSC control, Mixing Station, and a Behringer X-Air mixer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101417"/>
+      <stop offset="0.47" stop-color="#151d23"/>
+      <stop offset="1" stop-color="#201a16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="90" y1="0" x2="1280" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00D1FF"/>
+      <stop offset="0.36" stop-color="#54F0A5"/>
+      <stop offset="0.69" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF5C7A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#25313A"/>
+      <stop offset="1" stop-color="#151B20"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.95 0 0 0 0 0.78 0 0 0 0.75 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .title { font: 800 58px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; letter-spacing: 0; fill: #F7FAFC; }
+      .subtitle { font: 500 25px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #B9C5CC; }
+      .label { font: 800 27px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #F7FAFC; }
+      .small { font: 500 18px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #C9D3D8; }
+      .micro { font: 700 15px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill: #91A0A8; text-transform: uppercase; }
+      .panel { fill: url(#panel); stroke: rgba(255,255,255,.18); stroke-width: 1.5; rx: 22; }
+      .chip { fill: rgba(255,255,255,.08); stroke: rgba(255,255,255,.14); }
+      .wire { stroke: url(#accent); stroke-width: 7; stroke-linecap: round; stroke-dasharray: 16 20; animation: dash 1.6s linear infinite; }
+      .meter { animation: meter 1.8s ease-in-out infinite alternate; transform-origin: bottom; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+      @keyframes dash { to { stroke-dashoffset: -72; } }
+      @keyframes meter { from { transform: scaleY(.35); opacity: .55; } to { transform: scaleY(1); opacity: 1; } }
+      @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1400" height="760" rx="34" fill="url(#bg)"/>
+  <path d="M80 626 C272 498 394 548 548 422 C711 288 843 321 1038 212 C1150 150 1255 137 1320 102" stroke="url(#accent)" stroke-width="2.5" opacity=".22"/>
+  <path d="M90 660 C301 560 433 626 605 488 C742 378 909 414 1107 290 C1218 220 1290 214 1350 176" stroke="url(#accent)" stroke-width="2" opacity=".14"/>
+
+  <text x="74" y="94" class="title">Mix Mind v5.0</text>
+  <text x="78" y="134" class="subtitle">Natural-language control for Behringer X-Air mixers and Mixing Station</text>
+
+  <g transform="translate(75 205)">
+    <rect width="250" height="178" rx="22" class="panel"/>
+    <text x="28" y="47" class="micro">You ask</text>
+    <text x="28" y="86" class="label">Plain English</text>
+    <rect x="28" y="112" width="194" height="36" rx="18" class="chip"/>
+    <text x="47" y="136" class="small">"More vocal in bus 2"</text>
+  </g>
+
+  <path class="wire" d="M337 294 C407 294 434 294 502 294"/>
+
+  <g transform="translate(515 178)">
+    <rect width="370" height="232" rx="22" class="panel" filter="url(#glow)"/>
+    <text x="32" y="48" class="micro">MCP server</text>
+    <text x="32" y="88" class="label">xair-mcp</text>
+    <text x="32" y="123" class="small">29 tools for live mix control</text>
+    <g transform="translate(32 150)">
+      <rect width="94" height="42" rx="14" class="chip"/>
+      <text x="21" y="27" class="small">OSC</text>
+      <rect x="106" width="112" height="42" rx="14" class="chip"/>
+      <text x="127" y="27" class="small">meters</text>
+      <rect x="230" width="98" height="42" rx="14" class="chip"/>
+      <text x="251" y="27" class="small">macros</text>
+    </g>
+  </g>
+
+  <path class="wire" d="M897 294 C964 294 990 294 1055 294"/>
+
+  <g transform="translate(1068 205)">
+    <rect width="250" height="178" rx="22" class="panel"/>
+    <text x="28" y="47" class="micro">Mixer</text>
+    <text x="28" y="86" class="label">XR18 / X18</text>
+    <text x="28" y="122" class="small">UDP OSC on port 10024</text>
+    <g transform="translate(32 139)">
+      <rect class="meter" x="0" y="-12" width="13" height="24" rx="6" fill="#54F0A5"/>
+      <rect class="meter" x="27" y="-30" width="13" height="42" rx="6" fill="#00D1FF" style="animation-delay:.15s"/>
+      <rect class="meter" x="54" y="-22" width="13" height="34" rx="6" fill="#FFD166" style="animation-delay:.3s"/>
+      <rect class="meter" x="81" y="-40" width="13" height="52" rx="6" fill="#FF5C7A" style="animation-delay:.45s"/>
+    </g>
+  </g>
+
+  <g transform="translate(148 486)">
+    <rect width="250" height="130" rx="22" class="panel"/>
+    <text x="28" y="45" class="micro">Discovery</text>
+    <text x="28" y="82" class="label">Find the board</text>
+    <text x="28" y="108" class="small">Broadcast /xinfo</text>
+  </g>
+
+  <g transform="translate(456 486)">
+    <rect width="250" height="130" rx="22" class="panel"/>
+    <text x="28" y="45" class="micro">Translation</text>
+    <text x="28" y="82" class="label">Human units</text>
+    <text x="28" y="108" class="small">dB, Hz, Q, pan, gain</text>
+  </g>
+
+  <g transform="translate(764 486)">
+    <rect width="250" height="130" rx="22" class="panel"/>
+    <text x="28" y="45" class="micro">Second path</text>
+    <text x="28" y="82" class="label">Mixing Station</text>
+    <text x="28" y="108" class="small">REST and WebSocket API</text>
+  </g>
+
+  <g transform="translate(1072 486)">
+    <rect width="250" height="130" rx="22" class="panel"/>
+    <text x="28" y="45" class="micro">Safety</text>
+    <text x="28" y="82" class="label">Confirm big moves</text>
+    <text x="28" y="108" class="small">Snapshots, phantom, backups</text>
+  </g>
+
+  <circle class="pulse" cx="700" cy="294" r="72" stroke="url(#accent)" stroke-width="3" opacity=".55"/>
+  <circle class="pulse" cx="700" cy="294" r="102" stroke="url(#accent)" stroke-width="2" opacity=".35" style="animation-delay:.35s"/>
+  <text x="74" y="704" class="small">Prompt -> MCP tools -> OSC/Mixing Station -> live mixer state, snapshots, meters, macros, and backups.</text>
+</svg>
