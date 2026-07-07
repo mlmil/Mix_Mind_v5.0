@@ -1,0 +1,59 @@
+{
+  "_readme": "Named macros for Neon Blonde / Sin Chonies. Each macro is a list of OSC operations run in order. 'unit' converts human values (see xair_map_describe). Edit freely or save new ones with xair_macro_save.",
+  "macros": {
+    "line_check_safe": {
+      "description": "Safe starting point for line check: all channel faders to -30dB, unmuted, LR master at -20dB, phantom untouched.",
+      "operations": [
+        {"address": "/lr/mix/fader", "value": -20, "unit": "fader_db"},
+        {"address": "/ch/01/mix/fader", "value": -30, "unit": "fader_db", "repeat_ch": [1, 16]},
+        {"address": "/ch/01/mix/on", "value": 1, "repeat_ch": [1, 16]}
+      ]
+    },
+    "mute_all_inputs": {
+      "description": "Mute every input channel 1-16 (does not touch LR, buses or FX returns).",
+      "operations": [
+        {"address": "/ch/01/mix/on", "value": 0, "repeat_ch": [1, 16]}
+      ]
+    },
+    "unmute_all_inputs": {
+      "description": "Unmute every input channel 1-16.",
+      "operations": [
+        {"address": "/ch/01/mix/on", "value": 1, "repeat_ch": [1, 16]}
+      ]
+    },
+    "break_music": {
+      "description": "Set break: mute all inputs, unmute aux/USB return (ch 17/18 playback) and set it to -12dB into LR.",
+      "operations": [
+        {"address": "/ch/01/mix/on", "value": 0, "repeat_ch": [1, 16]},
+        {"address": "/rtn/aux/mix/on", "value": 1},
+        {"address": "/rtn/aux/mix/lr", "value": 1},
+        {"address": "/rtn/aux/mix/fader", "value": -12, "unit": "fader_db"}
+      ]
+    },
+    "show_mode": {
+      "description": "Back from break: mute the aux/USB playback, unmute all inputs.",
+      "operations": [
+        {"address": "/rtn/aux/mix/on", "value": 0},
+        {"address": "/ch/01/mix/on", "value": 1, "repeat_ch": [1, 16]}
+      ]
+    },
+    "kill_fx": {
+      "description": "Panic: mute all 4 FX returns (kills reverb/delay tails instantly, e.g. for talking between songs).",
+      "operations": [
+        {"address": "/rtn/1/mix/on", "value": 0},
+        {"address": "/rtn/2/mix/on", "value": 0},
+        {"address": "/rtn/3/mix/on", "value": 0},
+        {"address": "/rtn/4/mix/on", "value": 0}
+      ]
+    },
+    "restore_fx": {
+      "description": "Unmute all 4 FX returns.",
+      "operations": [
+        {"address": "/rtn/1/mix/on", "value": 1},
+        {"address": "/rtn/2/mix/on", "value": 1},
+        {"address": "/rtn/3/mix/on", "value": 1},
+        {"address": "/rtn/4/mix/on", "value": 1}
+      ]
+    }
+  }
+}
