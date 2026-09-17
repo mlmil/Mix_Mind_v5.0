@@ -1,0 +1,37 @@
+{
+  "consoleId": 2,
+  "models": [
+    "XR18",
+    "XR16",
+    "XR12"
+  ],
+  "currentModelId": 0,
+  "supportedHardwareModels": [
+    "MR18",
+    "X18",
+    "XR18",
+    "XR16",
+    "XR12"
+  ],
+  "ipAddress": "192.168.1.2",
+  "manufacturerId": 0,
+  "name": "X/M AIR",
+  "firmwareVersion": "1.18",
+  "currentModel": "XR18",
+  "canSearch": true,
+  "modelEnums": [
+    {
+      "name": "XR18",
+      "id": 3
+    },
+    {
+      "name": "XR16",
+      "id": 4
+    },
+    {
+      "name": "XR12",
+      "id": 5
+    }
+  ],
+  "manufacturer": "Behringer"
+}

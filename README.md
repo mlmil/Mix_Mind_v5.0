@@ -158,3 +158,11 @@ tests/                   Unit and mock-mixer tests
 ## Repository
 
 GitHub: [mlmil/Mix_Mind_v5.0](https://github.com/mlmil/Mix_Mind_v5.0)
+
+## Core MCP and Mixing Station technical reference
+
+Start with [00_INDEX.md](00_INDEX.md) for the September 2026 mapping capture: architecture, runtime, complete tool schemas, native OSC coverage, Mixing Station API/data definitions, source-selection semantics, safety classifications, and known limitations. Machine-readable maps and raw read-only evidence are included.
+
+This reference describes the inspected local deployment, including pre-existing local additions to `server.py` and `ms_client.py` that are **not included in this documentation commit**. In particular, the mapped `xair_routing_overview`, `xair_input_config`, `ms_data_tree`, and `ms_data_value` tools may not exist in the repository implementation. The source hashes in `mixing_station_mcp_map.json` identify the mapped files; this is a deployment reference, not a claim that all 33 tools ship at this Git revision.
+
+Captured source values and app identity are historical observations, not current state or a routing/readiness audit. No mixer or Ableton changes were made during mapping.

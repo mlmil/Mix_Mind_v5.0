@@ -1,0 +1,10 @@
+{
+  "python": "3.12.13",
+  "packages": {
+    "mcp": "1.28.1",
+    "httpx": "0.28.1",
+    "websockets": "16.0",
+    "pytest": "9.1.1",
+    "xair-mcp": "0.1.0"
+  }
+}

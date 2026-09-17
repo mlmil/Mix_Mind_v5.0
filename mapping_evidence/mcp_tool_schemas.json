@@ -1,0 +1,1501 @@
+[
+  {
+    "name": "xair_discover",
+    "title": null,
+    "description": "Broadcast /xinfo on UDP 10024 and list every X-Air mixer that answers.\n\n    Returns JSON list of {ip, name, model, firmware}. Use xair_connect with the\n    IP afterwards. If nothing is found: mixer off, different subnet/VLAN, or\n    an AP client-isolation issue.\n    ",
+    "inputSchema": {
+      "properties": {
+        "wait_seconds": {
+          "default": 2.0,
+          "title": "Wait Seconds",
+          "type": "number"
+        }
+      },
+      "title": "xair_discoverArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_discoverOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Discover X-Air mixers on the network",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_connect",
+    "title": null,
+    "description": "Set the mixer IP and verify the connection via /xinfo.\n\n    Args: host - IP address of the XAir18 (e.g. '192.168.1.50').\n    Returns mixer info on success.\n    ",
+    "inputSchema": {
+      "properties": {
+        "host": {
+          "title": "Host",
+          "type": "string"
+        }
+      },
+      "required": [
+        "host"
+      ],
+      "title": "xair_connectArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_connectOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Connect to the XAir18",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_info",
+    "title": null,
+    "description": "Get mixer identity (/xinfo) and status (/status) from the connected XAir18.",
+    "inputSchema": {
+      "properties": {},
+      "title": "xair_infoArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_infoOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mixer info/status",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_map_search",
+    "title": null,
+    "description": "Search the complete XAir18 OSC command map by keywords.\n\n    THE starting point for any parameter you don't know the address of.\n    Query terms are ANDed against path + description, e.g. 'gate threshold',\n    'phantom', 'snapshot load', 'fx type'.\n    Categories: channel, aux_return, fx_return, bus, fx_send, main_lr, fx,\n    headamp, config, dca, snapshot, status, command.\n    Returns patterned entries; {ch:02d} etc. expand per 'expand' ranges\n    (addresses are 1-based zero-padded, e.g. /ch/05/...).\n    ",
+    "inputSchema": {
+      "properties": {
+        "query": {
+          "title": "Query",
+          "type": "string"
+        },
+        "category": {
+          "default": "",
+          "title": "Category",
+          "type": "string"
+        },
+        "limit": {
+          "default": 30,
+          "title": "Limit",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "title": "xair_map_searchArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_map_searchOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Search the X-Air OSC address map",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": null
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_map_describe",
+    "title": null,
+    "description": "Explain a concrete OSC address: type, range/enum, unit conversion law,\n    verified flag. E.g. '/ch/05/dyn/thr'. Also lists all available unit names.\n    ",
+    "inputSchema": {
+      "properties": {
+        "address": {
+          "title": "Address",
+          "type": "string"
+        }
+      },
+      "required": [
+        "address"
+      ],
+      "title": "xair_map_describeArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_map_describeOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Describe one OSC address",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": null
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_get",
+    "title": null,
+    "description": "Read any OSC parameter from the mixer, e.g. '/ch/05/mix/fader'.\n\n    Returns raw wire value plus human units (dB, Hz, ...) when the map knows\n    the conversion. Works for unmapped addresses too.\n    ",
+    "inputSchema": {
+      "properties": {
+        "address": {
+          "title": "Address",
+          "type": "string"
+        }
+      },
+      "required": [
+        "address"
+      ],
+      "title": "xair_getArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_getOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Get any OSC parameter",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_set",
+    "title": null,
+    "description": "Set any OSC parameter on the mixer and read back for confirmation.\n\n    Args:\n        address: OSC address, e.g. '/ch/05/mix/fader'\n        value: the value. If `unit` given (or the map defines one for a float\n               param), human units are converted to wire format automatically:\n               e.g. address='/ch/05/mix/fader', value=-6, unit='fader_db'.\n        unit: '', a unit name from xair_map_describe, or 'raw' to skip conversion.\n    Returns the confirmed value after setting.\n    ",
+    "inputSchema": {
+      "properties": {
+        "address": {
+          "title": "Address",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "string"
+            }
+          ],
+          "title": "Value"
+        },
+        "unit": {
+          "default": "",
+          "title": "Unit",
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "value"
+      ],
+      "title": "xair_setArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_setOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Set any OSC parameter",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_batch_set",
+    "title": null,
+    "description": "Fire a list of OSC sets in order (fast, ~1ms apart).\n\n    Each operation: {\"address\": str, \"value\": num|str, \"unit\": optional str}.\n    Set confirm_each=true to read back every value (slower).\n    ",
+    "inputSchema": {
+      "properties": {
+        "operations": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Operations",
+          "type": "array"
+        },
+        "confirm_each": {
+          "default": false,
+          "title": "Confirm Each",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "operations"
+      ],
+      "title": "xair_batch_setArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_batch_setOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Set many OSC parameters",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_node_dump",
+    "title": null,
+    "description": "Dump a node of the mixer's config tree as native console text via /node.\n\n    THE tool for exploring/verifying the real parameter tree (\"hacking\").\n    Examples: 'ch/01/config', 'ch/05/dyn', 'lr/eq', 'bus/1', '-snap/01',\n    'config/solo', 'fx/1'. Returns the raw line(s) with current values in order.\n    ",
+    "inputSchema": {
+      "properties": {
+        "node": {
+          "title": "Node",
+          "type": "string"
+        }
+      },
+      "required": [
+        "node"
+      ],
+      "title": "xair_node_dumpArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_node_dumpOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Dump mixer config node (discovery)",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_routing_overview",
+    "title": null,
+    "description": "Read the XR18's global USB, Aux, Main, and Monitor routing nodes.\n\n    These native /routing nodes are separate from Mixing Station's\n    /console/data/paths tree, so this is the programmatic equivalent of the\n    Routing -> Outputs pages. It only reads state.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "xair_routing_overviewArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_routing_overviewOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Read XR18 global routing",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_channel_overview",
+    "title": null,
+    "description": "Snapshot of the whole board: every strip's name, color, fader (dB),\n    mute state and LR assignment. Use this FIRST to map human names\n    ('lead vox') to strip numbers. Covers ch1-16, aux, fx returns, buses,\n    fx sends, LR.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "xair_channel_overviewArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_channel_overviewOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Board overview: names, faders, mutes",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_input_config",
+    "title": null,
+    "description": "Read the configured source for one or all XR18 input strips.\n\n    This reports the Mixing Station input page's three decisive fields:\n    analog source, USB source, and the active A/D-versus-USB selector. It also\n    preserves the raw XR18 config tuple. It is distinct from global USB-send\n    routing: it answers what feeds each channel strip.\n    ",
+    "inputSchema": {
+      "properties": {
+        "channel": {
+          "default": "",
+          "title": "Channel",
+          "type": "string"
+        }
+      },
+      "title": "xair_input_configArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_input_configOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Read channel input sources",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_fader",
+    "title": null,
+    "description": "Set any strip's fader in dB (-90..+10; <=-90 = -inf/off).\n\n    strip: 'ch1'..'ch16', 'aux', 'rtn1-4', 'bus1-6', 'fxsend1-4', 'dca1-4', 'lr'.\n    For named channels ('lead vox'), first find the number via xair_channel_overview.\n    ",
+    "inputSchema": {
+      "properties": {
+        "strip": {
+          "title": "Strip",
+          "type": "string"
+        },
+        "level_db": {
+          "title": "Level Db",
+          "type": "number"
+        }
+      },
+      "required": [
+        "strip",
+        "level_db"
+      ],
+      "title": "xair_faderArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_faderOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Set a fader",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_mute",
+    "title": null,
+    "description": "Mute (true) or unmute (false) a strip. Same strip syntax as xair_fader.\n    Note: wire format is inverted ('on': 1=unmuted); this tool handles that.\n    ",
+    "inputSchema": {
+      "properties": {
+        "strip": {
+          "title": "Strip",
+          "type": "string"
+        },
+        "muted": {
+          "title": "Muted",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "strip",
+        "muted"
+      ],
+      "title": "xair_muteArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_muteOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mute/unmute a strip",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_mute_group",
+    "title": null,
+    "description": "Engage (true) or release (false) mute group 1-4. Engaging mutes all members.",
+    "inputSchema": {
+      "properties": {
+        "group": {
+          "title": "Group",
+          "type": "integer"
+        },
+        "engaged": {
+          "title": "Engaged",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "group",
+        "engaged"
+      ],
+      "title": "xair_mute_groupArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_mute_groupOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Engage/release a mute group",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_send_level",
+    "title": null,
+    "description": "Set how much of a channel goes to a bus (monitor) or FX.\n\n    channel: 'ch1'..'ch16', 'aux', 'rtn1-4'.\n    destination: 'bus1'..'bus6' (monitor/aux mixes) or 'fx1'..'fx4'.\n    level_db: -90..+10.\n    E.g. 'more vocal in the drummer's wedge on bus 2' -> channel='ch5',\n    destination='bus2', level_db=-5.\n    ",
+    "inputSchema": {
+      "properties": {
+        "channel": {
+          "title": "Channel",
+          "type": "string"
+        },
+        "destination": {
+          "title": "Destination",
+          "type": "string"
+        },
+        "level_db": {
+          "title": "Level Db",
+          "type": "number"
+        }
+      },
+      "required": [
+        "channel",
+        "destination",
+        "level_db"
+      ],
+      "title": "xair_send_levelArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_send_levelOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Set a monitor/FX send level",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_channel_detail",
+    "title": null,
+    "description": "Read a strip's full processing chain via /node dumps: config, preamp/\n    headamp, gate, dynamics, insert, EQ, mix, sends. Native console text format\n    (values in order as documented by the map).\n    ",
+    "inputSchema": {
+      "properties": {
+        "strip": {
+          "title": "Strip",
+          "type": "string"
+        }
+      },
+      "required": [
+        "strip"
+      ],
+      "title": "xair_channel_detailArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_channel_detailOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Full channel strip detail",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_eq_band",
+    "title": null,
+    "description": "Adjust one parametric EQ band on any strip.\n\n    strip: same syntax as xair_fader. band: 1-4 on channels, 1-6 on buses/LR.\n    Provide any of freq_hz (20-20000), gain_db (-15..+15), q (0.3-10),\n    band_type ('LCut','LShv','PEQ','VEQ','HShv','HCut').\n    E.g. 'cut 3k on the vocal by 4dB' -> strip='ch5', band=3, freq_hz=3000,\n    gain_db=-4.\n    ",
+    "inputSchema": {
+      "properties": {
+        "strip": {
+          "title": "Strip",
+          "type": "string"
+        },
+        "band": {
+          "title": "Band",
+          "type": "integer"
+        },
+        "freq_hz": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Freq Hz"
+        },
+        "gain_db": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gain Db"
+        },
+        "q": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Q"
+        },
+        "band_type": {
+          "default": "",
+          "title": "Band Type",
+          "type": "string"
+        }
+      },
+      "required": [
+        "strip",
+        "band"
+      ],
+      "title": "xair_eq_bandArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_eq_bandOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Set an EQ band",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_headamp",
+    "title": null,
+    "description": "Set preamp gain (-12..+60 dB) and/or 48V phantom for input 1-16.\n\n    CAUTION: toggling phantom while a condenser mic is hot can pop the PA;\n    gain changes affect everything post-preamp. Confirm with the user before\n    large changes during a show.\n    ",
+    "inputSchema": {
+      "properties": {
+        "channel": {
+          "title": "Channel",
+          "type": "integer"
+        },
+        "gain_db": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Gain Db"
+        },
+        "phantom": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Phantom"
+        }
+      },
+      "required": [
+        "channel"
+      ],
+      "title": "xair_headampArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_headampOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Preamp gain / phantom power",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_fx",
+    "title": null,
+    "description": "Inspect or modify FX slot 1-4.\n\n    No args beyond slot: returns current type + all parameter values.\n    fx_type: set algorithm by name from the FX_TYPES list (see xair_map_search\n    'fx type'). params: {\"01\": 0.5, ...} normalized 0..1 (param meanings depend\n    on the algorithm - dump first, tweak, re-check).\n    ",
+    "inputSchema": {
+      "properties": {
+        "slot": {
+          "title": "Slot",
+          "type": "integer"
+        },
+        "fx_type": {
+          "default": "",
+          "title": "Fx Type",
+          "type": "string"
+        },
+        "params": {
+          "anyOf": [
+            {
+              "additionalProperties": {
+                "type": "number"
+              },
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Params"
+        }
+      },
+      "required": [
+        "slot"
+      ],
+      "title": "xair_fxArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_fxOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Get/set FX slot",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_snapshot_list",
+    "title": null,
+    "description": "List all 64 snapshot slots with names (empty names = unused slots).\n    NOTE: slot 64 may hold Mixing Station's bus password protection - avoid\n    overwriting it if bus passwords are in use.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "xair_snapshot_listArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_snapshot_listOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "List mixer snapshots",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_snapshot_save",
+    "title": null,
+    "description": "Save the mixer's CURRENT state into snapshot slot 1-64 (overwrites!).\n    Optionally set the slot name. Avoid slot 64 if Mixing Station bus\n    passwords are used.\n    ",
+    "inputSchema": {
+      "properties": {
+        "slot": {
+          "title": "Slot",
+          "type": "integer"
+        },
+        "name": {
+          "default": "",
+          "title": "Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "slot"
+      ],
+      "title": "xair_snapshot_saveArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_snapshot_saveOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Save snapshot",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_snapshot_load",
+    "title": null,
+    "description": "LOAD snapshot slot 1-64. DANGER: instantly changes the entire mixer\n    state (faders, mutes, routing). Confirm with the user before doing this\n    during a live show.\n    ",
+    "inputSchema": {
+      "properties": {
+        "slot": {
+          "title": "Slot",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "slot"
+      ],
+      "title": "xair_snapshot_loadArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_snapshot_loadOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Load snapshot",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_backup_dump",
+    "title": null,
+    "description": "Dump the ENTIRE mixer state (all channels/buses/fx/config) via /node\n    to a timestamped text file in the backups/ folder next to the server.\n    The format matches the console's native scene lines - great for\n    versioning gigs ('Neon Blonde @ Riverside 2026-07-04') and diffing.\n    Takes ~30-60s.\n    ",
+    "inputSchema": {
+      "properties": {
+        "label": {
+          "default": "",
+          "title": "Label",
+          "type": "string"
+        }
+      },
+      "title": "xair_backup_dumpArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_backup_dumpOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Backup full mixer state to file",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_meters",
+    "title": null,
+    "description": "Sample live levels for ~duration and return peak+mean dB per slot.\n\n    meter_id 1 = all strips (in1-16, aux, fx returns, buses, fx sends, LR, mon).\n    Other ids (0-8) return raw unlabeled arrays (input/dynamics/rta banks).\n    Use for questions like 'is the kick clipping?' (ch levels near 0 dBFS clip;\n    good gig level peaks around -18..-9).\n    ",
+    "inputSchema": {
+      "properties": {
+        "meter_id": {
+          "default": 1,
+          "title": "Meter Id",
+          "type": "integer"
+        },
+        "duration_seconds": {
+          "default": 1.0,
+          "title": "Duration Seconds",
+          "type": "number"
+        }
+      },
+      "title": "xair_metersArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_metersOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Read live meters",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_macro_list",
+    "title": null,
+    "description": "List saved band macros (break_music, kill_fx, mute_all_inputs, ...)\n    with descriptions and operation counts.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "xair_macro_listArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_macro_listOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "List band macros",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": null
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_macro_run",
+    "title": null,
+    "description": "Execute a saved macro by name (see xair_macro_list). Runs all its OSC\n    operations in order against the mixer.\n    ",
+    "inputSchema": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "xair_macro_runArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_macro_runOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Run a band macro",
+      "readOnlyHint": false,
+      "destructiveHint": true,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "xair_macro_save",
+    "title": null,
+    "description": "Create or overwrite a named macro in the presets file.\n\n    operations: [{\"address\": \"/ch/05/mix/on\", \"value\": 0, \"unit\": optional,\n    \"repeat_ch\": optional [first,last] to repeat over channels}].\n    Tip: build the ops with xair_map_search, test with xair_batch_set, then save.\n    ",
+    "inputSchema": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "operations": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "title": "Operations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "operations"
+      ],
+      "title": "xair_macro_saveArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "xair_macro_saveOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Save a band macro",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": null
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "ms_app_state",
+    "title": null,
+    "description": "Get the Mixing Station desktop app's state (connection, current mixer).\n    Requires the desktop app running with its REST API enabled\n    (app settings -> APIs). Set env MS_API_URL if not on port 8080.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "ms_app_stateArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "ms_app_stateOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mixing Station app state",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "ms_data_tree",
+    "title": null,
+    "description": "Read Mixing Station's complete live console-data path tree.\n\n    This uses the HTTP REST endpoint directly, not the WebSocket passthrough.\n    It is read-only and is intended for discovering valid data paths before\n    inspecting routing or other console state.\n    ",
+    "inputSchema": {
+      "properties": {},
+      "title": "ms_data_treeArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "ms_data_treeOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mixing Station REST data tree",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "ms_data_value",
+    "title": null,
+    "description": "Read one live Mixing Station console-data value via REST.\n\n    Use dotted paths from ms_data_tree, for example\n    ``ch.0.routing.srcCfg.0``. This tool cannot write values.\n    ",
+    "inputSchema": {
+      "properties": {
+        "data_path": {
+          "title": "Data Path",
+          "type": "string"
+        },
+        "fmt": {
+          "default": "val",
+          "title": "Fmt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "data_path"
+      ],
+      "title": "ms_data_valueArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "ms_data_valueOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mixing Station REST data value",
+      "readOnlyHint": true,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "ms_api",
+    "title": null,
+    "description": "Call ANY Mixing Station WebSocket-API endpoint: app control, console\n    data, subscriptions. E.g. path='/console/data/val/ch.0.mix.lvl' (NOTE:\n    Mixing Station data paths are 0-BASED: ch.0 = channel 1!).\n    Open http://localhost:8080 for the interactive API explorer listing all\n    endpoints of the connected mixer. body_json: JSON string for POST bodies.\n    ",
+    "inputSchema": {
+      "properties": {
+        "path": {
+          "title": "Path",
+          "type": "string"
+        },
+        "method": {
+          "default": "GET",
+          "title": "Method",
+          "type": "string"
+        },
+        "body_json": {
+          "default": "",
+          "title": "Body Json",
+          "type": "string"
+        }
+      },
+      "required": [
+        "path"
+      ],
+      "title": "ms_apiArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "ms_apiOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Mixing Station API passthrough",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  },
+  {
+    "name": "ms_value",
+    "title": null,
+    "description": "Read or write a console value through Mixing Station's data model.\n\n    data_path example: 'ch.0.mix.lvl' (0-based channel index!). fmt: 'val'\n    (plain, e.g. dB) or 'norm' (0..1). Leave set_to empty to read.\n    Useful when you want Mixing Station's UI to reflect/log the change, or for\n    MS-only features; otherwise prefer the direct xair_* tools.\n    ",
+    "inputSchema": {
+      "properties": {
+        "data_path": {
+          "title": "Data Path",
+          "type": "string"
+        },
+        "set_to": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Set To"
+        },
+        "fmt": {
+          "default": "val",
+          "title": "Fmt",
+          "type": "string"
+        }
+      },
+      "required": [
+        "data_path"
+      ],
+      "title": "ms_valueArguments",
+      "type": "object"
+    },
+    "outputSchema": {
+      "properties": {
+        "result": {
+          "title": "Result",
+          "type": "string"
+        }
+      },
+      "required": [
+        "result"
+      ],
+      "title": "ms_valueOutput",
+      "type": "object"
+    },
+    "icons": null,
+    "annotations": {
+      "title": "Get/set value via Mixing Station",
+      "readOnlyHint": false,
+      "destructiveHint": null,
+      "idempotentHint": null,
+      "openWorldHint": true
+    },
+    "meta": null,
+    "execution": null
+  }
+]

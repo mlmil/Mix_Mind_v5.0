@@ -1,0 +1,34 @@
+{
+  "ch.1.cfg.name": {
+    "format": "val",
+    "value": "KYLE A"
+  },
+  "ch.1.cfg.srcSel": {
+    "format": "val",
+    "value": 1.0
+  },
+  "ch.1.routing.srcCfg.0": {
+    "format": "val",
+    "value": 1.0
+  },
+  "ch.1.routing.srcCfg.1": {
+    "format": "val",
+    "value": 16.0
+  },
+  "ch.6.cfg.name": {
+    "format": "val",
+    "value": "KYLE B"
+  },
+  "ch.6.cfg.srcSel": {
+    "format": "val",
+    "value": 1.0
+  },
+  "ch.6.routing.srcCfg.0": {
+    "format": "val",
+    "value": 1.0
+  },
+  "ch.6.routing.srcCfg.1": {
+    "format": "val",
+    "value": 17.0
+  }
+}

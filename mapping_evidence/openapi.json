@@ -1,0 +1,3613 @@
+{
+  "components": {
+    "schemas": {
+      "blob-cc-e": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "bitPos": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-ce-d": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoles": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-ce-d$a"
+            }
+          }
+        }
+      },
+      "blob-cc-f": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "channel": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cc-e"
+            }
+          },
+          "global": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cc-e"
+            }
+          }
+        }
+      },
+      "blob-ce-e": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "results": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-ce-e$a"
+            }
+          }
+        }
+      },
+      "blob-ce-f": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "interfaces": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-ce-f$a"
+            }
+          }
+        }
+      },
+      "blob-ce-g": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoleId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "Mixer series ID which should be started",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-ce-h": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoleId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "Mixer series ID which should be started",
+            "type": "integer"
+          },
+          "modelId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "Model which should be started",
+            "type": "integer"
+          },
+          "model": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-bz-e": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-bz-f": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "newIndices": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-Integer"
+            }
+          }
+        }
+      },
+      "java-lang-Integer": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-bz-g": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "targets": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bz-g$a"
+            }
+          }
+        }
+      },
+      "blob-ca-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "msg": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "progress": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "state": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "topState": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-bz-h": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "path": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "format": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-cc-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "src": {
+            "exampleSetFlag": false,
+            "$ref": "#/components/schemas/blob-xy-a"
+          },
+          "scope": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "dest": {
+            "exampleSetFlag": false,
+            "$ref": "#/components/schemas/blob-xy-a"
+          }
+        }
+      },
+      "float": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-ca-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "progress": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "state": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-bz-i": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "binary": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "interval": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "id": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "channelIndices": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-Integer"
+            }
+          }
+        }
+      },
+      "blob-bz-j": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "binary": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "interval": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "id": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "params": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bz-c"
+            }
+          }
+        }
+      },
+      "blob-cc-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "type": "object"
+          },
+          "scope": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "channel": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "type": "object",
+            "properties": {
+              "offset": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "type": "integer"
+              },
+              "type": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "type": "integer"
+              }
+            }
+          }
+        }
+      },
+      "blob-cc-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "src": {
+            "exampleSetFlag": false,
+            "$ref": "#/components/schemas/blob-xy-a"
+          },
+          "scope": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cc-d": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "data": {
+            "exampleSetFlag": false,
+            "$ref": "#/components/schemas/blob-bq-c"
+          },
+          "globalScope": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "channelScopes": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cc-a"
+            }
+          }
+        }
+      },
+      "blob-ce-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoleId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "ip": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-ce-d$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoleId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "ID of this mixer series",
+            "type": "integer"
+          },
+          "models": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          },
+          "supportedHardwareModels": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "Human readable list of the supported mixer models. This is not a 1:1 relation to the 'models'. This field is for information purposes only and is not used otherwise.",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          },
+          "manufacturerId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "canSearch": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "modelEnums": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "App-internal mixer models. This value is used when creating a mixer (for offline mode) and may be presented to the user as a selection.",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bj-b"
+            }
+          },
+          "manufacturer": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-ce-d$b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "consoleId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "ID of this mixer series",
+            "type": "integer"
+          },
+          "models": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          },
+          "currentModelId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "supportedHardwareModels": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "Human readable list of the supported mixer models. This is not a 1:1 relation to the 'models'. This field is for information purposes only and is not used otherwise.",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          },
+          "ipAddress": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "manufacturerId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "firmwareVersion": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "currentModel": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "canSearch": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "modelEnums": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "App-internal mixer models. This value is used when creating a mixer (for offline mode) and may be presented to the user as a selection.",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bj-b"
+            }
+          },
+          "manufacturer": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-ce-f$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "isPrimary": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "ipAddress": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "subnetMask": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "overridePrimary": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          }
+        }
+      },
+      "java-lang-Object": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-bj-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "id": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cb-b$b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-cb-b$c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "offset": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "stereo": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "count": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "signalTargets": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cb-b$b"
+            }
+          },
+          "monoParent": {
+            "exampleSetFlag": false,
+            "$ref": "#/components/schemas/blob-cb-b$c"
+          },
+          "shortName": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "type": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cb-b$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "styleClass": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-bz-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-bz-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "members": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-xy-a"
+            }
+          },
+          "index": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-bz-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "index": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "type": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-xy-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "offset": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "type": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-bz-d": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "members": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-xy-a"
+            }
+          }
+        }
+      },
+      "blob-bz-b$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "dcas": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bz-b"
+            }
+          }
+        }
+      },
+      "blob-cb-f": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "val": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "child": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "additionalProperties": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cb-f"
+            },
+            "type": "object"
+          }
+        }
+      },
+      "blob-cf-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-cf-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-cf-d": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-cb-h": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "description": "Details about the node",
+        "type": "object",
+        "properties": {
+          "defaultFilterType": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "description": "The default filter type used",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cf-e": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "connectorId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cb-i": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "msg": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-cb-j": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "enums": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bj-b"
+            }
+          },
+          "unit": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "tap": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "min": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "type": "number"
+          },
+          "max": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "type": "number"
+          },
+          "delta": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "type": "number"
+          },
+          "type": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-cb-k": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "description": "Details about the value",
+        "type": "object",
+        "properties": {
+          "enums": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "Accepted enums, ids have no guaranteed order",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-bj-b"
+            }
+          },
+          "unit": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "description": "Value unit",
+            "type": "string"
+          },
+          "tap": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "description": "True if value is tappable",
+            "type": "boolean"
+          },
+          "min": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "description": "Min value of unit",
+            "type": "number"
+          },
+          "max": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "description": "Max value of unit",
+            "type": "number"
+          },
+          "delta": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "description": "Minimum delta value accepted (normalized)",
+            "type": "number"
+          },
+          "title": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "type": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "description": "Type (float/integer/boolean/string/enum)",
+            "type": "string"
+          },
+          "constraints": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "description": "If the value at the path is a string, this contains the constraints that apply to the string",
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          }
+        }
+      },
+      "blob-cb-l": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "path": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "definition": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "type": "object",
+            "properties": {
+              "enums": {
+                "exampleSetFlag": false,
+                "types": [
+                  "array"
+                ],
+                "type": "array",
+                "items": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bj-b"
+                }
+              },
+              "unit": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "type": "string"
+              },
+              "tap": {
+                "exampleSetFlag": false,
+                "types": [
+                  "boolean"
+                ],
+                "type": "boolean"
+              },
+              "min": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "type": "number"
+              },
+              "max": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "type": "number"
+              },
+              "delta": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "type": "number"
+              },
+              "type": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "type": "string"
+              }
+            }
+          },
+          "constraints": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          }
+        }
+      },
+      "blob-cb-m": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "format": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "value": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "type": "object"
+          }
+        }
+      },
+      "blob-cb-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "genericName": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "index": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-cb-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "totalChannels": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "channelColors": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cb-b$a"
+            }
+          },
+          "channelTypes": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cb-b$c"
+            }
+          },
+          "rtaFrequencies": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/float"
+            }
+          },
+          "dbfsOffset": {
+            "exampleSetFlag": false,
+            "types": [
+              "number"
+            ],
+            "type": "number"
+          }
+        }
+      },
+      "blob-cb-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-cd-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "success": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          }
+        }
+      },
+      "blob-cb-d": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "definitions": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "additionalProperties": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-cb-l"
+            },
+            "type": "object"
+          }
+        }
+      },
+      "blob-cd-b": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "password": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "user": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-cd-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "users": {
+            "exampleSetFlag": false,
+            "types": [
+              "array"
+            ],
+            "type": "array",
+            "items": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/java-lang-String"
+            }
+          }
+        }
+      },
+      "blob-cb-e": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "node": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "description": "Details about the node",
+            "type": "object",
+            "properties": {
+              "defaultFilterType": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "description": "The default filter type used",
+                "type": "integer"
+              }
+            }
+          },
+          "value": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "description": "Details about the value",
+            "type": "object",
+            "properties": {
+              "enums": {
+                "exampleSetFlag": false,
+                "types": [
+                  "array"
+                ],
+                "description": "Accepted enums, ids have no guaranteed order",
+                "type": "array",
+                "items": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bj-b"
+                }
+              },
+              "unit": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "description": "Value unit",
+                "type": "string"
+              },
+              "tap": {
+                "exampleSetFlag": false,
+                "types": [
+                  "boolean"
+                ],
+                "description": "True if value is tappable",
+                "type": "boolean"
+              },
+              "min": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "description": "Min value of unit",
+                "type": "number"
+              },
+              "max": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "description": "Max value of unit",
+                "type": "number"
+              },
+              "delta": {
+                "exampleSetFlag": false,
+                "types": [
+                  "number"
+                ],
+                "description": "Minimum delta value accepted (normalized)",
+                "type": "number"
+              },
+              "title": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "type": "string"
+              },
+              "type": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "description": "Type (float/integer/boolean/string/enum)",
+                "type": "string"
+              },
+              "constraints": {
+                "exampleSetFlag": false,
+                "types": [
+                  "array"
+                ],
+                "description": "If the value at the path is a string, this contains the constraints that apply to the string",
+                "type": "array",
+                "items": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/java-lang-String"
+                }
+              }
+            }
+          }
+        }
+      },
+      "blob-cf-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "hostname": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "searchId": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "connectorId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-ce-e$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "modelId": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "ip": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "model": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "version": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "blob-arn-a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "errorMsg": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          }
+        }
+      },
+      "java-lang-String": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      },
+      "blob-bz-g$a": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object",
+        "properties": {
+          "isChannel": {
+            "exampleSetFlag": false,
+            "types": [
+              "boolean"
+            ],
+            "type": "boolean"
+          },
+          "name": {
+            "exampleSetFlag": false,
+            "types": [
+              "string"
+            ],
+            "type": "string"
+          },
+          "channelType": {
+            "exampleSetFlag": false,
+            "types": [
+              "object"
+            ],
+            "type": "object",
+            "properties": {
+              "offset": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "type": "integer"
+              },
+              "stereo": {
+                "exampleSetFlag": false,
+                "types": [
+                  "boolean"
+                ],
+                "type": "boolean"
+              },
+              "name": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "type": "string"
+              },
+              "count": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "type": "integer"
+              },
+              "signalTargets": {
+                "exampleSetFlag": false,
+                "types": [
+                  "array"
+                ],
+                "type": "array",
+                "items": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-b$b"
+                }
+              },
+              "monoParent": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cb-b$c"
+              },
+              "shortName": {
+                "exampleSetFlag": false,
+                "types": [
+                  "string"
+                ],
+                "type": "string"
+              },
+              "type": {
+                "exampleSetFlag": false,
+                "types": [
+                  "integer"
+                ],
+                "format": "int32",
+                "type": "integer"
+              }
+            }
+          },
+          "id": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          },
+          "channelIndex": {
+            "exampleSetFlag": false,
+            "types": [
+              "integer"
+            ],
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "blob-bq-c": {
+        "exampleSetFlag": false,
+        "types": [
+          "object"
+        ],
+        "type": "object"
+      }
+    },
+    "responses": {
+      "apiNotFound": {
+        "description": "Item not found",
+        "content": {
+          "application/json": {
+            "schema": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-arn-a"
+            },
+            "exampleSetFlag": false
+          }
+        }
+      },
+      "apiError": {
+        "description": "API error",
+        "content": {
+          "application/json": {
+            "schema": {
+              "exampleSetFlag": false,
+              "$ref": "#/components/schemas/blob-arn-a"
+            },
+            "exampleSetFlag": false
+          }
+        }
+      },
+      "unhandledError": {
+        "description": "Unhandled error",
+        "content": {
+          "text/plain": {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "exampleSetFlag": false
+          }
+        }
+      },
+      "noResponse": {
+        "description": "No response"
+      }
+    }
+  },
+  "servers": [
+    {
+      "description": "Main endpoint",
+      "url": "http://127.0.0.1:8080/"
+    }
+  ],
+  "openapi": "3.0.1",
+  "paths": {
+    "/app/idcas/{index}": {
+      "post": {
+        "summary": "Modifies a IDCA",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-d"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bz-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Modifies the members of an existing IDCA with the given index.",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "index",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/rf/search/stop": {
+      "post": {
+        "summary": "Stop search",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Stops searching for devices"
+      }
+    },
+    "/app/mixers/current": {
+      "get": {
+        "summary": "Get currently selected mixer",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ce-d$b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns the meta-data of the currently used mixer."
+      }
+    },
+    "/app/idcas/{index}/delete": {
+      "post": {
+        "summary": "Deletes an IDCA",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "This will delete the existing IDCA with the given index. Note that this might change the index of all IDCAs after the given index.",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "index",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/console/data/categories": {
+      "get": {
+        "summary": "Returns all data categories.",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-c"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/mixers/connect": {
+      "post": {
+        "summary": "Connect",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-ce-b"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Connects to the mixer with the given IP/Hostname and model id"
+      }
+    },
+    "/console/data/paths/{path}": {
+      "get": {
+        "summary": "Returns a sub-path",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-f"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/console/mixTargets": {
+      "get": {
+        "summary": "Returns all signal sinks which can be used as mix target for the channels",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bz-g"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/console/metering/unsubscribe": {
+      "post": {
+        "summary": "Unsubscribe metering",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-a"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Unsubscribes the metering request with the given id"
+      }
+    },
+    "/app/idcas/rearrange": {
+      "post": {
+        "summary": "Updates the IDCAs order",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-f"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bz-b$a"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "This will update the position of the IDCAs. The given list represents the source indices of the existing IDCAs"
+      }
+    },
+    "/console/data/set/{path}/{format}": {
+      "post": {
+        "summary": "Sets the value at the given path.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cb-m"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-m"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "See 'get' for format parameter description. If the given numeric value isn't supported by the mixer it will be rounded to the closest matching value.",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          },
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "format",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/rf/connectors": {
+      "get": {
+        "summary": "Get connectors",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cf-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns all RF connectors that are available"
+      }
+    },
+    "/console/data/definitions2/{path}": {
+      "get": {
+        "summary": "Returns the data definitions for the given paths",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-e"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/app/mixers/available": {
+      "get": {
+        "summary": "Get mixer models",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ce-d"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns all supported mixer models."
+      }
+    },
+    "/console/auth/info": {
+      "get": {
+        "summary": "Returns the security details about this mixer",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cd-c"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/state": {
+      "get": {
+        "summary": "Get app state",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ca-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns the current state of the app."
+      }
+    },
+    "/rf/devices": {
+      "get": {
+        "summary": "Get all RF device config",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cf-c"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/presets/channel/apply": {
+      "post": {
+        "summary": "Recalls the given MS Preset data",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cc-b"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/console/data/get/{path}/{format}": {
+      "get": {
+        "summary": "Returns the current value at the given path.",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-m"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Format can be 'val' or 'norm' representing the actual value or a normalized value ranging from 0-1",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          },
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "format",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/app/ui/selectedChannel/{nameOrIndex}": {
+      "get": {
+        "summary": "Sets the currently selected channel, either by name or index",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-a"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "nameOrIndex",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/rf/search/start": {
+      "post": {
+        "summary": "Start search",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cf-e"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Starts searching for rf devices using the given connector id"
+      }
+    },
+    "/rf/search/results": {
+      "get": {
+        "summary": "Get search results",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cf-d"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns a list of all rf devices found in the network (of the currently selected connector)"
+      }
+    },
+    "/console/metering2/subscribe": {
+      "post": {
+        "summary": "Subscribe metering",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-j"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Subscribes to the metering values. The detailed description about this endpoint is in the manual"
+      }
+    },
+    "/app/ui/selectedChannel": {
+      "get": {
+        "summary": "Returns the currently selected channel",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-a"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/network/interfaces/primary": {
+      "post": {
+        "summary": "Override primary interface",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-e"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ce-f"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Enforces the NIC with the given name as primary. This must be set before starting any search / connection process"
+      }
+    },
+    "/console/data/unsubscribe": {
+      "post": {
+        "summary": "Unsubscribe data",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-h"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Unsubscribes the data matching the given pattern. The path must match 1:1 the path used for the subscription. Can only be called from a websocket."
+      }
+    },
+    "/console/auth/login": {
+      "post": {
+        "summary": "Logs in to the mixer using the given credentials.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cd-b"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cd-a"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/presets/scenes/apply": {
+      "post": {
+        "summary": "Recalls the given MS Scene data",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cc-d"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/idcas": {
+      "post": {
+        "summary": "Creates a new IDCA",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-d"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-bz-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "This will add a new IDCA with the given members.Afterwards the new IDCA will appear in the data tree as 'idca.X' where X is the index of the newly created IDCA returned in the reply."
+      }
+    },
+    "/app/presets/scopes": {
+      "get": {
+        "summary": "Returns all available scopes",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cc-f"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/console/metering/subscribe": {
+      "post": {
+        "summary": "Subscribe metering",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-i"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": true,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Subscribes to the metering values of channels. The metering data will be sent to '/console/metering/{id}'. If a channel is stereo two values will be included (L/R). You can call this request multiple times, either to update an existing subscription or to subscribe to different channels with a different id.\n\nThe interval parameter defines the data rate in milliseconds (global per client).\n\nSetting 'binary' to true will cause the reply to contain a base64 encoded string (non-padded). The format is the following:\n\nint16 fixed float point (factor 100) big endian"
+      }
+    },
+    "/app/mixers/searchResults": {
+      "get": {
+        "summary": "Get search results",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ce-e"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns a list of all mixers found in the network (of the current selected series)"
+      }
+    },
+    "/app/mixers/offline": {
+      "post": {
+        "summary": "Start offline mode",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-ce-h"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Starts the offline mode for mixers of the given series and model."
+      }
+    },
+    "/app/save": {
+      "post": {
+        "summary": "Saves the current app settings",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "This will persist all app settings"
+      }
+    },
+    "/console/information": {
+      "get": {
+        "summary": "Returns details about the channel architecture of this mixer.",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/console/data/subscribe": {
+      "post": {
+        "summary": "Subscribe data",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-bz-h"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Subscribes to the data matching the given pattern. Can only be called from a websocket.\n\nCreating a subscription will cause the app to send the values if a new subscription was created, as well as on every change.\nA single * may be used to indicate a wildcard for a single path segment.\n\nIf a value doesn't exist anymore due to a mixer configuration change (for example stereo bus gets unlinked) a value update with value=null, format=null will be sent."
+      }
+    },
+    "/app/mixers/disconnect": {
+      "post": {
+        "summary": "Disconnect",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Stops the network stack and return to the initial app state"
+      }
+    },
+    "/rf/devices/add": {
+      "post": {
+        "summary": "Adds a new RF device",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cf-a"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "When adding via search use the searchId!"
+      }
+    },
+    "/app/presets/scenes/create": {
+      "post": {
+        "summary": "Returns the current mixer state as MS Scene",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cc-d"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/console/onConfigChanged": {
+      "get": {
+        "summary": "Mixer config changed event",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Websocket only. Gets broadcast to all clients if the mixer configuration has been changed. This may happen for mixers which have configurable mono/stereo channel counts."
+      }
+    },
+    "/rf/devices/remove/{uid}": {
+      "post": {
+        "summary": "Removes a RF device",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "uid",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/app/presets/channel/create": {
+      "post": {
+        "summary": "Returns the state of a single channel as MS Preset",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-cc-c"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cc-b"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/presets/lastError": {
+      "get": {
+        "summary": "Returns any error messages that occurred during the last  recall",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-i"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/mixers/search": {
+      "post": {
+        "summary": "Start mixer search",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "exampleSetFlag": false,
+                "$ref": "#/components/schemas/blob-ce-g"
+              },
+              "exampleSetFlag": false
+            }
+          }
+        },
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Starts searching for mixers of the given variant."
+      }
+    },
+    "/console/data/definitions/{path}": {
+      "get": {
+        "summary": "Returns the data definitions for the given path",
+        "deprecated": true,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-d"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/app/network/interfaces": {
+      "get": {
+        "summary": "Get network interfaces",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ce-f"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns all network interfaces and their current status"
+      }
+    },
+    "/convert/{path}/vton/{val}": {
+      "get": {
+        "summary": "Converts from a unit value to a normalized value.",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-m"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Converts the given unit value using the convertion used at the given path to a normalized value",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          },
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "val",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/convert/{path}/ntov/{val}": {
+      "get": {
+        "summary": "Converts from normalized to unit format.",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-m"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Converts the given normalized value using the convertion used at the given path to the actual value",
+        "parameters": [
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "path",
+            "required": true
+          },
+          {
+            "schema": {
+              "exampleSetFlag": false,
+              "types": [
+                "string"
+              ],
+              "type": "string"
+            },
+            "in": "path",
+            "name": "val",
+            "required": true
+          }
+        ]
+      }
+    },
+    "/development/crashTest": {
+      "get": {
+        "summary": "Crash test",
+        "deprecated": false,
+        "responses": {
+          "204": {
+            "$ref": "#/components/responses/noResponse"
+          }
+        },
+        "description": "Creates an unhandled exception to test the crash behavior"
+      }
+    },
+    "/console/data/paths": {
+      "get": {
+        "summary": "Returns all data paths available for the current mixer",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-cb-f"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": ""
+      }
+    },
+    "/app/presets/state": {
+      "get": {
+        "summary": "Get preset recall state",
+        "deprecated": false,
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "exampleSetFlag": false,
+                  "$ref": "#/components/schemas/blob-ca-c"
+                },
+                "exampleSetFlag": false
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/apiError"
+          },
+          "500": {
+            "$ref": "#/components/responses/unhandledError"
+          },
+          "404": {
+            "$ref": "#/components/responses/apiNotFound"
+          }
+        },
+        "description": "Returns the current state of the preset recall subsystem"
+      }
+    }
+  },
+  "info": {
+    "contact": {
+      "url": "https://mixingstation.app"
+    },
+    "description": "This API can be used to remote control digital mixers via mixing station.",
+    "title": "Mixing Station",
+    "version": "1.1"
+  }
+}

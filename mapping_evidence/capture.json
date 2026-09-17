@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-17T00:34:14.810846+00:00",
+  "base_url": "http://127.0.0.1:8080",
+  "leaves": 3775,
+  "nodes": 1540,
+  "definition_errors": 1,
+  "scope": "GET definitions and source values only; no level audit"
+}

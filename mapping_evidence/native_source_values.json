@@ -1,0 +1,32 @@
+{
+  "/ch/02/config": [
+    "KYLE A_45",
+    7,
+    0,
+    16
+  ],
+  "/ch/02/config/insrc": [
+    0
+  ],
+  "/ch/02/config/rtnsrc": [
+    16
+  ],
+  "/ch/02/preamp/rtnsw": [
+    1
+  ],
+  "/ch/07/config": [
+    "KYLE B_46",
+    7,
+    0,
+    17
+  ],
+  "/ch/07/config/insrc": [
+    0
+  ],
+  "/ch/07/config/rtnsrc": [
+    17
+  ],
+  "/ch/07/preamp/rtnsw": [
+    1
+  ]
+}

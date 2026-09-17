@@ -1,0 +1,3688 @@
+{
+  "schema_version": 1,
+  "evidence": "Live leaf definitions; IDs are explicit, never list-position assumptions",
+  "path_to_enum_id": {
+    "fx.rack.0.factorA": "7394278b5bad2fa3",
+    "fx.rack.0.factorB": "7394278b5bad2fa3",
+    "fx.rack.0.factorC": "7394278b5bad2fa3",
+    "fx.rack.0.crossfeed": "a8d13c7eba2c48d9",
+    "fx.rack.0.mono": "a8d13c7eba2c48d9",
+    "fx.rack.0.dry": "a8d13c7eba2c48d9",
+    "fx.rack.1.freeze": "a8d13c7eba2c48d9",
+    "fx.rack.2.factorA": "7394278b5bad2fa3",
+    "fx.rack.2.factorB": "7394278b5bad2fa3",
+    "fx.rack.2.crossFeed": "a8d13c7eba2c48d9",
+    "fx.rack.2.mono": "a8d13c7eba2c48d9",
+    "fx.rack.2.dry": "a8d13c7eba2c48d9",
+    "ch.22.rawEq.model": "508450ff0d7e33b6",
+    "ch.22.cfg.color": "a51c8968c7d6dd41",
+    "ch.22.dyn.mode": "6e6bda1d74844791",
+    "ch.22.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.22.dyn.filter.src": "1b52639fd0f16467",
+    "ch.22.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.22.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.22.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.22.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "ch.23.rawEq.model": "508450ff0d7e33b6",
+    "ch.23.cfg.color": "a51c8968c7d6dd41",
+    "ch.23.dyn.mode": "6e6bda1d74844791",
+    "ch.23.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.23.dyn.filter.src": "707a4319ee9ec350",
+    "ch.23.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.23.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.23.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.23.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "ch.24.rawEq.model": "508450ff0d7e33b6",
+    "ch.24.cfg.color": "a51c8968c7d6dd41",
+    "ch.24.dyn.mode": "6e6bda1d74844791",
+    "ch.24.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.24.dyn.filter.src": "b99447a121404ed7",
+    "ch.24.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.24.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.24.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.24.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "ch.25.rawEq.model": "508450ff0d7e33b6",
+    "ch.25.cfg.color": "a51c8968c7d6dd41",
+    "ch.25.dyn.mode": "6e6bda1d74844791",
+    "ch.25.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.25.dyn.filter.src": "3d26fb488f3f4450",
+    "ch.25.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.25.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.25.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.25.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "ch.26.rawEq.model": "508450ff0d7e33b6",
+    "ch.26.cfg.color": "a51c8968c7d6dd41",
+    "ch.26.dyn.mode": "6e6bda1d74844791",
+    "ch.26.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.26.dyn.filter.src": "7d558456b1069b06",
+    "ch.26.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.26.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.26.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.26.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "ch.27.cfg.color": "a51c8968c7d6dd41",
+    "ch.28.cfg.color": "a51c8968c7d6dd41",
+    "ch.29.cfg.color": "a51c8968c7d6dd41",
+    "ch.30.cfg.color": "a51c8968c7d6dd41",
+    "ch.31.rawEq.model": "508450ff0d7e33b6",
+    "ch.31.cfg.color": "a51c8968c7d6dd41",
+    "ch.31.dyn.mode": "6e6bda1d74844791",
+    "ch.31.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.31.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.31.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.10.rawEq.model": "199b9d633637553e",
+    "ch.10.amm.mode": "7589f8400d21f08d",
+    "ch.10.cfg.color": "a51c8968c7d6dd41",
+    "ch.10.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.10.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.10.routing.srcCfg.1": "213514a719325347",
+    "ch.10.dyn.mode": "6e6bda1d74844791",
+    "ch.10.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.10.dyn.filter.src": "a99905310c14e045",
+    "ch.10.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.10.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.10.gate.mode": "6ead5baabfa86df8",
+    "ch.10.gate.ratio": "4931de30cca462b4",
+    "ch.10.gate.model": "517f18f9916464d2",
+    "ch.10.gate.filter.src": "a99905310c14e045",
+    "ch.10.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.10.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.10.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.10.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.10.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.10.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.10.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.10.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.10.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.10.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.10.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.32.cfg.color": "a51c8968c7d6dd41",
+    "ch.11.rawEq.model": "199b9d633637553e",
+    "ch.11.amm.mode": "7589f8400d21f08d",
+    "ch.11.cfg.color": "a51c8968c7d6dd41",
+    "ch.11.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.11.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.11.routing.srcCfg.1": "213514a719325347",
+    "ch.11.dyn.mode": "6e6bda1d74844791",
+    "ch.11.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.11.dyn.filter.src": "f12ae68c219bfd17",
+    "ch.11.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.11.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.11.gate.mode": "6ead5baabfa86df8",
+    "ch.11.gate.ratio": "4931de30cca462b4",
+    "ch.11.gate.model": "517f18f9916464d2",
+    "ch.11.gate.filter.src": "f12ae68c219bfd17",
+    "ch.11.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.11.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.11.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.11.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.11.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.11.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.11.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.11.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.11.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.11.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.11.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.33.cfg.color": "a51c8968c7d6dd41",
+    "ch.12.rawEq.model": "199b9d633637553e",
+    "ch.12.amm.mode": "7589f8400d21f08d",
+    "ch.12.cfg.color": "a51c8968c7d6dd41",
+    "ch.12.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.12.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.12.routing.srcCfg.1": "213514a719325347",
+    "ch.12.dyn.mode": "6e6bda1d74844791",
+    "ch.12.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.12.dyn.filter.src": "e9a90dd50922acef",
+    "ch.12.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.12.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.12.gate.mode": "6ead5baabfa86df8",
+    "ch.12.gate.ratio": "4931de30cca462b4",
+    "ch.12.gate.model": "517f18f9916464d2",
+    "ch.12.gate.filter.src": "e9a90dd50922acef",
+    "ch.12.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.12.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.12.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.12.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.12.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.12.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.12.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.12.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.12.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.12.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.12.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.34.cfg.color": "a51c8968c7d6dd41",
+    "ch.13.rawEq.model": "199b9d633637553e",
+    "ch.13.amm.mode": "7589f8400d21f08d",
+    "ch.13.cfg.color": "a51c8968c7d6dd41",
+    "ch.13.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.13.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.13.routing.srcCfg.1": "213514a719325347",
+    "ch.13.dyn.mode": "6e6bda1d74844791",
+    "ch.13.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.13.dyn.filter.src": "3d26fb488f3f4450",
+    "ch.13.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.13.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.13.gate.mode": "6ead5baabfa86df8",
+    "ch.13.gate.ratio": "4931de30cca462b4",
+    "ch.13.gate.model": "517f18f9916464d2",
+    "ch.13.gate.filter.src": "3d26fb488f3f4450",
+    "ch.13.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.13.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.13.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.13.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.13.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.13.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.13.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.13.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.13.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.13.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.13.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.35.cfg.color": "a51c8968c7d6dd41",
+    "ch.14.rawEq.model": "199b9d633637553e",
+    "ch.14.amm.mode": "7589f8400d21f08d",
+    "ch.14.cfg.color": "a51c8968c7d6dd41",
+    "ch.14.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.14.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.14.routing.srcCfg.1": "213514a719325347",
+    "ch.14.dyn.mode": "6e6bda1d74844791",
+    "ch.14.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.14.dyn.filter.src": "7dc00cb7ddccdff4",
+    "ch.14.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.14.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.14.gate.mode": "6ead5baabfa86df8",
+    "ch.14.gate.ratio": "4931de30cca462b4",
+    "ch.14.gate.model": "517f18f9916464d2",
+    "ch.14.gate.filter.src": "7dc00cb7ddccdff4",
+    "ch.14.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.14.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.14.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.14.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.14.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.14.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.14.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.14.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.14.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.14.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.14.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.15.rawEq.model": "199b9d633637553e",
+    "ch.15.amm.mode": "7589f8400d21f08d",
+    "ch.15.cfg.color": "a51c8968c7d6dd41",
+    "ch.15.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.15.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.15.routing.srcCfg.1": "213514a719325347",
+    "ch.15.dyn.mode": "6e6bda1d74844791",
+    "ch.15.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.15.dyn.filter.src": "e4e10734c12c111a",
+    "ch.15.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.15.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.15.gate.mode": "6ead5baabfa86df8",
+    "ch.15.gate.ratio": "4931de30cca462b4",
+    "ch.15.gate.model": "517f18f9916464d2",
+    "ch.15.gate.filter.src": "e4e10734c12c111a",
+    "ch.15.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.15.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.15.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.15.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.15.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.15.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.15.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.15.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.15.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.15.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.15.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.16.rawEq.model": "199b9d633637553e",
+    "ch.16.routing.srcCfg.0": "170f5f2c9efaabb3",
+    "ch.16.cfg.color": "a51c8968c7d6dd41",
+    "ch.16.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.16.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.16.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.16.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.16.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.16.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.16.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.16.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.16.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.16.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.16.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.17.rawEq.model": "199b9d633637553e",
+    "ch.17.routing.srcCfg.0": "170f5f2c9efaabb3",
+    "ch.17.cfg.color": "a51c8968c7d6dd41",
+    "ch.17.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.17.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.17.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.17.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.17.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.17.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.17.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.17.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.17.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.17.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.17.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.18.rawEq.model": "199b9d633637553e",
+    "ch.18.routing.srcCfg.0": "170f5f2c9efaabb3",
+    "ch.18.cfg.color": "a51c8968c7d6dd41",
+    "ch.18.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.18.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.18.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.18.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.18.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.18.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.18.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.18.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.18.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.18.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.18.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.19.rawEq.model": "199b9d633637553e",
+    "ch.19.routing.srcCfg.0": "170f5f2c9efaabb3",
+    "ch.19.cfg.color": "a51c8968c7d6dd41",
+    "ch.19.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.19.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.19.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.19.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.19.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.19.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.19.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.19.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.19.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.19.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.19.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.0.rawEq.model": "199b9d633637553e",
+    "ch.0.amm.mode": "7589f8400d21f08d",
+    "ch.0.cfg.color": "a51c8968c7d6dd41",
+    "ch.0.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.0.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.0.routing.srcCfg.1": "213514a719325347",
+    "ch.0.dyn.mode": "6e6bda1d74844791",
+    "ch.0.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.0.dyn.filter.src": "b99447a121404ed7",
+    "ch.0.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.0.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.0.gate.mode": "6ead5baabfa86df8",
+    "ch.0.gate.ratio": "4931de30cca462b4",
+    "ch.0.gate.model": "517f18f9916464d2",
+    "ch.0.gate.filter.src": "b99447a121404ed7",
+    "ch.0.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.0.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.0.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.0.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.0.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.0.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.0.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.0.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.0.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.0.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.0.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.1.rawEq.model": "199b9d633637553e",
+    "ch.1.amm.mode": "7589f8400d21f08d",
+    "ch.1.cfg.color": "a51c8968c7d6dd41",
+    "ch.1.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.1.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.1.routing.srcCfg.1": "213514a719325347",
+    "ch.1.dyn.mode": "6e6bda1d74844791",
+    "ch.1.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.1.dyn.filter.src": "f6fef3314efa66df",
+    "ch.1.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.1.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.1.gate.mode": "6ead5baabfa86df8",
+    "ch.1.gate.ratio": "4931de30cca462b4",
+    "ch.1.gate.model": "517f18f9916464d2",
+    "ch.1.gate.filter.src": "f6fef3314efa66df",
+    "ch.1.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.1.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.1.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.1.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.1.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.1.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.1.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.1.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.1.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.1.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.1.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.2.rawEq.model": "199b9d633637553e",
+    "ch.2.amm.mode": "7589f8400d21f08d",
+    "ch.2.cfg.color": "a51c8968c7d6dd41",
+    "ch.2.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.2.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.2.routing.srcCfg.1": "213514a719325347",
+    "ch.2.dyn.mode": "6e6bda1d74844791",
+    "ch.2.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.2.dyn.filter.src": "707a4319ee9ec350",
+    "ch.2.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.2.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.2.gate.mode": "6ead5baabfa86df8",
+    "ch.2.gate.ratio": "4931de30cca462b4",
+    "ch.2.gate.model": "517f18f9916464d2",
+    "ch.2.gate.filter.src": "707a4319ee9ec350",
+    "ch.2.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.2.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.2.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.2.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.2.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.2.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.2.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.2.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.2.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.2.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.2.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.3.rawEq.model": "199b9d633637553e",
+    "ch.3.amm.mode": "7589f8400d21f08d",
+    "ch.3.cfg.color": "a51c8968c7d6dd41",
+    "ch.3.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.3.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.3.routing.srcCfg.1": "213514a719325347",
+    "ch.3.dyn.mode": "6e6bda1d74844791",
+    "ch.3.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.3.dyn.filter.src": "a5fdf74c5a6a0ce4",
+    "ch.3.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.3.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.3.gate.mode": "6ead5baabfa86df8",
+    "ch.3.gate.ratio": "4931de30cca462b4",
+    "ch.3.gate.model": "517f18f9916464d2",
+    "ch.3.gate.filter.src": "a5fdf74c5a6a0ce4",
+    "ch.3.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.3.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.3.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.3.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.3.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.3.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.3.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.3.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.3.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.3.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.3.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.4.rawEq.model": "199b9d633637553e",
+    "ch.4.amm.mode": "7589f8400d21f08d",
+    "ch.4.cfg.color": "a51c8968c7d6dd41",
+    "ch.4.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.4.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.4.routing.srcCfg.1": "213514a719325347",
+    "ch.4.dyn.mode": "6e6bda1d74844791",
+    "ch.4.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.4.dyn.filter.src": "312481f6c5738888",
+    "ch.4.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.4.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.4.gate.mode": "6ead5baabfa86df8",
+    "ch.4.gate.ratio": "4931de30cca462b4",
+    "ch.4.gate.model": "517f18f9916464d2",
+    "ch.4.gate.filter.src": "312481f6c5738888",
+    "ch.4.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.4.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.4.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.4.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.4.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.4.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.4.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.4.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.4.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.4.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.4.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.5.rawEq.model": "199b9d633637553e",
+    "ch.5.amm.mode": "7589f8400d21f08d",
+    "ch.5.cfg.color": "a51c8968c7d6dd41",
+    "ch.5.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.5.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.5.routing.srcCfg.1": "213514a719325347",
+    "ch.5.dyn.mode": "6e6bda1d74844791",
+    "ch.5.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.5.dyn.filter.src": "52f0e375eaf5dd7c",
+    "ch.5.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.5.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.5.gate.mode": "6ead5baabfa86df8",
+    "ch.5.gate.ratio": "4931de30cca462b4",
+    "ch.5.gate.model": "517f18f9916464d2",
+    "ch.5.gate.filter.src": "52f0e375eaf5dd7c",
+    "ch.5.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.5.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.5.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.5.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.5.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.5.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.5.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.5.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.5.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.5.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.5.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.6.rawEq.model": "199b9d633637553e",
+    "ch.6.amm.mode": "7589f8400d21f08d",
+    "ch.6.cfg.color": "a51c8968c7d6dd41",
+    "ch.6.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.6.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.6.routing.srcCfg.1": "213514a719325347",
+    "ch.6.dyn.mode": "6e6bda1d74844791",
+    "ch.6.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.6.dyn.filter.src": "3e07a56c7af3c81c",
+    "ch.6.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.6.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.6.gate.mode": "6ead5baabfa86df8",
+    "ch.6.gate.ratio": "4931de30cca462b4",
+    "ch.6.gate.model": "517f18f9916464d2",
+    "ch.6.gate.filter.src": "3e07a56c7af3c81c",
+    "ch.6.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.6.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.6.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.6.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.6.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.6.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.6.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.6.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.6.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.6.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.6.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.7.rawEq.model": "199b9d633637553e",
+    "ch.7.amm.mode": "7589f8400d21f08d",
+    "ch.7.cfg.color": "a51c8968c7d6dd41",
+    "ch.7.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.7.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.7.routing.srcCfg.1": "213514a719325347",
+    "ch.7.dyn.mode": "6e6bda1d74844791",
+    "ch.7.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.7.dyn.filter.src": "1b52639fd0f16467",
+    "ch.7.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.7.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.7.gate.mode": "6ead5baabfa86df8",
+    "ch.7.gate.ratio": "4931de30cca462b4",
+    "ch.7.gate.model": "517f18f9916464d2",
+    "ch.7.gate.filter.src": "1b52639fd0f16467",
+    "ch.7.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.7.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.7.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.7.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.7.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.7.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.7.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.7.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.7.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.7.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.7.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.8.rawEq.model": "199b9d633637553e",
+    "ch.8.amm.mode": "7589f8400d21f08d",
+    "ch.8.cfg.color": "a51c8968c7d6dd41",
+    "ch.8.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.8.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.8.routing.srcCfg.1": "213514a719325347",
+    "ch.8.dyn.mode": "6e6bda1d74844791",
+    "ch.8.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.8.dyn.filter.src": "e29ff42a0824315e",
+    "ch.8.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.8.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.8.gate.mode": "6ead5baabfa86df8",
+    "ch.8.gate.ratio": "4931de30cca462b4",
+    "ch.8.gate.model": "517f18f9916464d2",
+    "ch.8.gate.filter.src": "e29ff42a0824315e",
+    "ch.8.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.8.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.8.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.8.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.8.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.8.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.8.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.8.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.8.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.8.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.8.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.9.rawEq.model": "199b9d633637553e",
+    "ch.9.amm.mode": "7589f8400d21f08d",
+    "ch.9.cfg.color": "a51c8968c7d6dd41",
+    "ch.9.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.9.routing.srcCfg.0": "2374bba5e836b169",
+    "ch.9.routing.srcCfg.1": "213514a719325347",
+    "ch.9.dyn.mode": "6e6bda1d74844791",
+    "ch.9.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.9.dyn.filter.src": "1e4b082ed7dc24a5",
+    "ch.9.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.9.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.9.gate.mode": "6ead5baabfa86df8",
+    "ch.9.gate.ratio": "4931de30cca462b4",
+    "ch.9.gate.model": "517f18f9916464d2",
+    "ch.9.gate.filter.src": "1e4b082ed7dc24a5",
+    "ch.9.gate.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.9.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.9.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.9.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.9.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.9.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.9.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.9.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.9.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.9.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.9.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.20.rawEq.model": "199b9d633637553e",
+    "ch.20.routing.srcCfg.0": "170f5f2c9efaabb3",
+    "ch.20.cfg.color": "a51c8968c7d6dd41",
+    "ch.20.cfg.srcSel": "a8d13c7eba2c48d9",
+    "ch.20.mix.sends.0.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.1.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.2.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.3.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.4.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.5.tap": "80f8c4a2a5c17cf9",
+    "ch.20.mix.sends.6.tap": "6a6586e1398fdbff",
+    "ch.20.mix.sends.7.tap": "6a6586e1398fdbff",
+    "ch.20.mix.sends.8.tap": "6a6586e1398fdbff",
+    "ch.20.mix.sends.9.tap": "6a6586e1398fdbff",
+    "ch.20.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.20.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.20.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.20.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.20.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.21.rawEq.model": "508450ff0d7e33b6",
+    "ch.21.cfg.color": "a51c8968c7d6dd41",
+    "ch.21.dyn.mode": "6e6bda1d74844791",
+    "ch.21.dyn.ratio": "0da37fa8f5f5f58f",
+    "ch.21.dyn.filter.src": "8dbcc128c993c61f",
+    "ch.21.dyn.filter.type": "14dd4b3c9a805f23",
+    "ch.21.dyn.filter.filters.bands.0.type": "14dd4b3c9a805f23",
+    "ch.21.peq.selBand.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.0.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.1.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.2.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.3.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.4.type": "ae3a70a5d65d11ef",
+    "ch.21.peq.bands.5.type": "ae3a70a5d65d11ef",
+    "idca.0.cfg.color": "a51c8968c7d6dd41",
+    "idca.1.cfg.color": "a51c8968c7d6dd41",
+    "idca.2.cfg.color": "a51c8968c7d6dd41",
+    "monitor.ch.0.src.src": "f09a478fbebe5771",
+    "rta.src": "d5fcae477db47230"
+  },
+  "enums": {
+    "7394278b5bad2fa3": [
+      {
+        "name": "1/4",
+        "id": 0
+      },
+      {
+        "name": "3/8",
+        "id": 1
+      },
+      {
+        "name": "1/2",
+        "id": 2
+      },
+      {
+        "name": "2/3",
+        "id": 3
+      },
+      {
+        "name": "1",
+        "id": 4
+      },
+      {
+        "name": "4/3",
+        "id": 5
+      },
+      {
+        "name": "3/2",
+        "id": 6
+      },
+      {
+        "name": "2",
+        "id": 7
+      },
+      {
+        "name": "3",
+        "id": 8
+      }
+    ],
+    "a8d13c7eba2c48d9": [
+      {
+        "name": "Off",
+        "id": 0
+      },
+      {
+        "name": "On",
+        "id": 1
+      }
+    ],
+    "508450ff0d7e33b6": [
+      {
+        "name": "PEQ",
+        "id": 0
+      },
+      {
+        "name": "GEQ",
+        "id": 1
+      },
+      {
+        "name": "TEQ",
+        "id": 2
+      }
+    ],
+    "a51c8968c7d6dd41": [
+      {
+        "name": "Black",
+        "id": 0
+      },
+      {
+        "name": "Red",
+        "id": 1
+      },
+      {
+        "name": "Green",
+        "id": 2
+      },
+      {
+        "name": "Yellow",
+        "id": 3
+      },
+      {
+        "name": "Blue",
+        "id": 4
+      },
+      {
+        "name": "Magenta",
+        "id": 5
+      },
+      {
+        "name": "Cyan",
+        "id": 6
+      },
+      {
+        "name": "White",
+        "id": 7
+      },
+      {
+        "name": "Black Inv",
+        "id": 8
+      },
+      {
+        "name": "Red Inv",
+        "id": 9
+      },
+      {
+        "name": "Green Inv",
+        "id": 10
+      },
+      {
+        "name": "Yellow Inv",
+        "id": 11
+      },
+      {
+        "name": "Blue Inv",
+        "id": 12
+      },
+      {
+        "name": "Magenta Inv",
+        "id": 13
+      },
+      {
+        "name": "Cyan Inv",
+        "id": 14
+      },
+      {
+        "name": "White Inv",
+        "id": 15
+      }
+    ],
+    "6e6bda1d74844791": [
+      {
+        "name": "Comp",
+        "id": 0
+      },
+      {
+        "name": "Expand",
+        "id": 1
+      }
+    ],
+    "0da37fa8f5f5f58f": [
+      {
+        "name": "1.1",
+        "id": 0
+      },
+      {
+        "name": "1.3",
+        "id": 1
+      },
+      {
+        "name": "1.5",
+        "id": 2
+      },
+      {
+        "name": "2.0",
+        "id": 3
+      },
+      {
+        "name": "2.5",
+        "id": 4
+      },
+      {
+        "name": "3.0",
+        "id": 5
+      },
+      {
+        "name": "4.0",
+        "id": 6
+      },
+      {
+        "name": "5.0",
+        "id": 7
+      },
+      {
+        "name": "7.0",
+        "id": 8
+      },
+      {
+        "name": "10",
+        "id": 9
+      },
+      {
+        "name": "20",
+        "id": 10
+      },
+      {
+        "name": "100",
+        "id": 11
+      }
+    ],
+    "1b52639fd0f16467": [
+      {
+        "name": "MIKE",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "14dd4b3c9a805f23": [
+      {
+        "name": "Lo-Cut 6dB",
+        "id": 7
+      },
+      {
+        "name": "Lo-Cut 12dB",
+        "id": 8
+      },
+      {
+        "name": "Hi-Cut 6dB",
+        "id": 11
+      },
+      {
+        "name": "Hi-Cut 12dB",
+        "id": 12
+      },
+      {
+        "name": "Q 1.0",
+        "id": 101
+      },
+      {
+        "name": "Q 2.0",
+        "id": 102
+      },
+      {
+        "name": "Q 3.0",
+        "id": 103
+      },
+      {
+        "name": "Q 5.0",
+        "id": 105
+      },
+      {
+        "name": "Q 10.0",
+        "id": 110
+      }
+    ],
+    "ae3a70a5d65d11ef": [
+      {
+        "name": "Hi-Cut",
+        "id": 2
+      },
+      {
+        "name": "Hi-Shelf",
+        "id": 5
+      },
+      {
+        "name": "VEQ",
+        "id": 1
+      },
+      {
+        "name": "PEQ",
+        "id": 0
+      },
+      {
+        "name": "Lo-Shelf",
+        "id": 4
+      },
+      {
+        "name": "Lo-Cut",
+        "id": 3
+      }
+    ],
+    "707a4319ee9ec350": [
+      {
+        "name": "ALFRED",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "b99447a121404ed7": [
+      {
+        "name": "MATT",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "3d26fb488f3f4450": [
+      {
+        "name": "DAVE",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "7d558456b1069b06": [
+      {
+        "name": "SUB",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "199b9d633637553e": [
+      {
+        "name": "PEQ",
+        "id": 0
+      }
+    ],
+    "7589f8400d21f08d": [
+      {
+        "name": "Off",
+        "id": 0
+      },
+      {
+        "name": "X",
+        "id": 1
+      },
+      {
+        "name": "Y",
+        "id": 2
+      }
+    ],
+    "2374bba5e836b169": [
+      {
+        "name": "None - None",
+        "id": 0
+      },
+      {
+        "name": "In 1-8 - In 1",
+        "id": 1
+      },
+      {
+        "name": "In 1-8 - In 2",
+        "id": 2
+      },
+      {
+        "name": "In 1-8 - In 3",
+        "id": 3
+      },
+      {
+        "name": "In 1-8 - In 4",
+        "id": 4
+      },
+      {
+        "name": "In 1-8 - In 5",
+        "id": 5
+      },
+      {
+        "name": "In 1-8 - In 6",
+        "id": 6
+      },
+      {
+        "name": "In 1-8 - In 7",
+        "id": 7
+      },
+      {
+        "name": "In 1-8 - In 8",
+        "id": 8
+      },
+      {
+        "name": "In 9-16 - In 9",
+        "id": 9
+      },
+      {
+        "name": "In 9-16 - In 10",
+        "id": 10
+      },
+      {
+        "name": "In 9-16 - In 11",
+        "id": 11
+      },
+      {
+        "name": "In 9-16 - In 12",
+        "id": 12
+      },
+      {
+        "name": "In 9-16 - In 13",
+        "id": 13
+      },
+      {
+        "name": "In 9-16 - In 14",
+        "id": 14
+      },
+      {
+        "name": "In 9-16 - In 15",
+        "id": 15
+      },
+      {
+        "name": "In 9-16 - In 16",
+        "id": 16
+      },
+      {
+        "name": "Aux - Aux L",
+        "id": 17
+      },
+      {
+        "name": "Aux - Aux R",
+        "id": 18
+      }
+    ],
+    "213514a719325347": [
+      {
+        "name": "USB - U 1",
+        "id": 0
+      },
+      {
+        "name": "USB - U 2",
+        "id": 1
+      },
+      {
+        "name": "USB - U 3",
+        "id": 2
+      },
+      {
+        "name": "USB - U 4",
+        "id": 3
+      },
+      {
+        "name": "USB - U 5",
+        "id": 4
+      },
+      {
+        "name": "USB - U 6",
+        "id": 5
+      },
+      {
+        "name": "USB - U 7",
+        "id": 6
+      },
+      {
+        "name": "USB - U 8",
+        "id": 7
+      },
+      {
+        "name": "USB - U 9",
+        "id": 8
+      },
+      {
+        "name": "USB - U 10",
+        "id": 9
+      },
+      {
+        "name": "USB - U 11",
+        "id": 10
+      },
+      {
+        "name": "USB - U 12",
+        "id": 11
+      },
+      {
+        "name": "USB - U 13",
+        "id": 12
+      },
+      {
+        "name": "USB - U 14",
+        "id": 13
+      },
+      {
+        "name": "USB - U 15",
+        "id": 14
+      },
+      {
+        "name": "USB - U 16",
+        "id": 15
+      },
+      {
+        "name": "USB - U 17",
+        "id": 16
+      },
+      {
+        "name": "USB - U 18",
+        "id": 17
+      }
+    ],
+    "a99905310c14e045": [
+      {
+        "name": "MIDI DRUMS",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "6ead5baabfa86df8": [
+      {
+        "name": "Gate",
+        "id": 0
+      },
+      {
+        "name": "Duck",
+        "id": 1
+      },
+      {
+        "name": "Exp 2",
+        "id": 2
+      },
+      {
+        "name": "Exp 3",
+        "id": 3
+      },
+      {
+        "name": "Exp 4",
+        "id": 4
+      }
+    ],
+    "4931de30cca462b4": [
+      {
+        "name": "Gate",
+        "id": 0
+      },
+      {
+        "name": "Exp 2",
+        "id": 1
+      },
+      {
+        "name": "Exp 3",
+        "id": 2
+      },
+      {
+        "name": "Exp 4",
+        "id": 3
+      }
+    ],
+    "517f18f9916464d2": [
+      {
+        "name": "Gate",
+        "id": 0
+      },
+      {
+        "name": "Duck",
+        "id": 1
+      }
+    ],
+    "80f8c4a2a5c17cf9": [
+      {
+        "name": "IN",
+        "id": 0
+      },
+      {
+        "name": "Pre EQ",
+        "id": 2
+      },
+      {
+        "name": "Post EQ",
+        "id": 3
+      },
+      {
+        "name": "Pre Fader",
+        "id": 4
+      },
+      {
+        "name": "Post Fader",
+        "id": 5
+      },
+      {
+        "name": "Group",
+        "id": 6
+      }
+    ],
+    "6a6586e1398fdbff": [
+      {
+        "name": "IN",
+        "id": 0
+      },
+      {
+        "name": "Pre EQ",
+        "id": 2
+      },
+      {
+        "name": "Post EQ",
+        "id": 3
+      },
+      {
+        "name": "Pre Fader",
+        "id": 4
+      },
+      {
+        "name": "Post Fader",
+        "id": 5
+      }
+    ],
+    "f12ae68c219bfd17": [
+      {
+        "name": "KICK TRIG",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "e9a90dd50922acef": [
+      {
+        "name": "FULL R",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "7dc00cb7ddccdff4": [
+      {
+        "name": "KICK MIC",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "e4e10734c12c111a": [
+      {
+        "name": "KEYS",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "170f5f2c9efaabb3": [
+      {
+        "name": "USB - U 1/2",
+        "id": 0
+      },
+      {
+        "name": "USB - U 3/4",
+        "id": 1
+      },
+      {
+        "name": "USB - U 5/6",
+        "id": 2
+      },
+      {
+        "name": "USB - U 7/8",
+        "id": 3
+      },
+      {
+        "name": "USB - U 9/10",
+        "id": 4
+      },
+      {
+        "name": "USB - U 11/12",
+        "id": 5
+      },
+      {
+        "name": "USB - U 13/14",
+        "id": 6
+      },
+      {
+        "name": "USB - U 15/16",
+        "id": 7
+      },
+      {
+        "name": "USB - U 17/18",
+        "id": 8
+      }
+    ],
+    "f6fef3314efa66df": [
+      {
+        "name": "KYLE A",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "a5fdf74c5a6a0ce4": [
+      {
+        "name": "GUITAR",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "312481f6c5738888": [
+      {
+        "name": "BOH CLICK",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "52f0e375eaf5dd7c": [
+      {
+        "name": "FULL L",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "3e07a56c7af3c81c": [
+      {
+        "name": "KYLE B",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "e29ff42a0824315e": [
+      {
+        "name": "BASS",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "1e4b082ed7dc24a5": [
+      {
+        "name": "BOH CUES",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "8dbcc128c993c61f": [
+      {
+        "name": "KYLE",
+        "id": 0
+      },
+      {
+        "name": "MATT",
+        "id": 1
+      },
+      {
+        "name": "KYLE A",
+        "id": 2
+      },
+      {
+        "name": "ALFRED",
+        "id": 3
+      },
+      {
+        "name": "GUITAR",
+        "id": 4
+      },
+      {
+        "name": "BOH CLICK",
+        "id": 5
+      },
+      {
+        "name": "FULL L",
+        "id": 6
+      },
+      {
+        "name": "KYLE B",
+        "id": 7
+      },
+      {
+        "name": "MIKE",
+        "id": 8
+      },
+      {
+        "name": "BASS",
+        "id": 9
+      },
+      {
+        "name": "BOH CUES",
+        "id": 10
+      },
+      {
+        "name": "MIDI DRUMS",
+        "id": 11
+      },
+      {
+        "name": "KICK TRIG",
+        "id": 12
+      },
+      {
+        "name": "FULL R",
+        "id": 13
+      },
+      {
+        "name": "DAVE",
+        "id": 14
+      },
+      {
+        "name": "KICK MIC",
+        "id": 15
+      },
+      {
+        "name": "KEYS",
+        "id": 16
+      },
+      {
+        "name": "KYLE",
+        "id": 17
+      },
+      {
+        "name": "MIKE",
+        "id": 18
+      },
+      {
+        "name": "ALFRED",
+        "id": 19
+      },
+      {
+        "name": "MATT",
+        "id": 20
+      },
+      {
+        "name": "DAVE",
+        "id": 21
+      },
+      {
+        "name": "SUB",
+        "id": 22
+      }
+    ],
+    "f09a478fbebe5771": [
+      {
+        "name": "Off",
+        "id": 0
+      },
+      {
+        "name": "LR",
+        "id": 1
+      },
+      {
+        "name": "LR PFL",
+        "id": 2
+      },
+      {
+        "name": "LR AFL",
+        "id": 3
+      },
+      {
+        "name": "Aux",
+        "id": 4
+      },
+      {
+        "name": "USB 17/18",
+        "id": 5
+      },
+      {
+        "name": "Bus 1",
+        "id": 6
+      },
+      {
+        "name": "Bus 2",
+        "id": 7
+      },
+      {
+        "name": "Bus 3",
+        "id": 8
+      },
+      {
+        "name": "Bus 4",
+        "id": 9
+      },
+      {
+        "name": "Bus 5",
+        "id": 10
+      },
+      {
+        "name": "Bus 6",
+        "id": 11
+      },
+      {
+        "name": "Bus 1/2",
+        "id": 12
+      },
+      {
+        "name": "Bus 3/4",
+        "id": 13
+      },
+      {
+        "name": "Bus 5/6",
+        "id": 14
+      }
+    ],
+    "d5fcae477db47230": [
+      {
+        "channel": {
+          "offset": 0,
+          "type": 0
+        },
+        "name": "MATT",
+        "id": 0
+      },
+      {
+        "channel": {
+          "offset": 1,
+          "type": 0
+        },
+        "name": "KYLE A",
+        "id": 1
+      },
+      {
+        "channel": {
+          "offset": 2,
+          "type": 0
+        },
+        "name": "ALFRED",
+        "id": 2
+      },
+      {
+        "channel": {
+          "offset": 3,
+          "type": 0
+        },
+        "name": "GUITAR",
+        "id": 3
+      },
+      {
+        "channel": {
+          "offset": 4,
+          "type": 0
+        },
+        "name": "BOH CLICK",
+        "id": 4
+      },
+      {
+        "channel": {
+          "offset": 5,
+          "type": 0
+        },
+        "name": "FULL L",
+        "id": 5
+      },
+      {
+        "channel": {
+          "offset": 6,
+          "type": 0
+        },
+        "name": "KYLE B",
+        "id": 6
+      },
+      {
+        "channel": {
+          "offset": 7,
+          "type": 0
+        },
+        "name": "MIKE",
+        "id": 7
+      },
+      {
+        "channel": {
+          "offset": 8,
+          "type": 0
+        },
+        "name": "BASS",
+        "id": 8
+      },
+      {
+        "channel": {
+          "offset": 9,
+          "type": 0
+        },
+        "name": "BOH CUES",
+        "id": 9
+      },
+      {
+        "channel": {
+          "offset": 10,
+          "type": 0
+        },
+        "name": "MIDI DRUMS",
+        "id": 10
+      },
+      {
+        "channel": {
+          "offset": 11,
+          "type": 0
+        },
+        "name": "KICK TRIG",
+        "id": 11
+      },
+      {
+        "channel": {
+          "offset": 12,
+          "type": 0
+        },
+        "name": "FULL R",
+        "id": 12
+      },
+      {
+        "channel": {
+          "offset": 13,
+          "type": 0
+        },
+        "name": "DAVE",
+        "id": 13
+      },
+      {
+        "channel": {
+          "offset": 14,
+          "type": 0
+        },
+        "name": "KICK MIC",
+        "id": 14
+      },
+      {
+        "channel": {
+          "offset": 15,
+          "type": 0
+        },
+        "name": "KEYS",
+        "id": 15
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 1
+        },
+        "name": "USB",
+        "id": 16
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 3
+        },
+        "name": "REVERB",
+        "id": 17
+      },
+      {
+        "channel": {
+          "offset": 1,
+          "type": 3
+        },
+        "name": "FxRet 2",
+        "id": 18
+      },
+      {
+        "channel": {
+          "offset": 2,
+          "type": 3
+        },
+        "name": "FxRet 3",
+        "id": 19
+      },
+      {
+        "channel": {
+          "offset": 3,
+          "type": 3
+        },
+        "name": "FxRet 4",
+        "id": 20
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 4
+        },
+        "name": "KYLE",
+        "id": 21
+      },
+      {
+        "channel": {
+          "offset": 1,
+          "type": 4
+        },
+        "name": "MIKE",
+        "id": 22
+      },
+      {
+        "channel": {
+          "offset": 2,
+          "type": 4
+        },
+        "name": "ALFRED",
+        "id": 23
+      },
+      {
+        "channel": {
+          "offset": 3,
+          "type": 4
+        },
+        "name": "MATT",
+        "id": 24
+      },
+      {
+        "channel": {
+          "offset": 4,
+          "type": 4
+        },
+        "name": "DAVE",
+        "id": 25
+      },
+      {
+        "channel": {
+          "offset": 5,
+          "type": 4
+        },
+        "name": "SUB",
+        "id": 26
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 2
+        },
+        "name": "DELAY",
+        "id": 27
+      },
+      {
+        "channel": {
+          "offset": 1,
+          "type": 2
+        },
+        "name": "REVERB",
+        "id": 28
+      },
+      {
+        "channel": {
+          "offset": 2,
+          "type": 2
+        },
+        "name": "DELAY",
+        "id": 29
+      },
+      {
+        "channel": {
+          "offset": 3,
+          "type": 2
+        },
+        "name": "FxSnd 4",
+        "id": 30
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 6
+        },
+        "name": "Main 1",
+        "id": 31
+      },
+      {
+        "channel": {
+          "offset": 0,
+          "type": 8
+        },
+        "name": "DCA 1",
+        "id": 32
+      },
+      {
+        "channel": {
+          "offset": 1,
+          "type": 8
+        },
+        "name": "DCA 2",
+        "id": 33
+      },
+      {
+        "channel": {
+          "offset": 2,
+          "type": 8
+        },
+        "name": "DCA 3",
+        "id": 34
+      },
+      {
+        "channel": {
+          "offset": 3,
+          "type": 8
+        },
+        "name": "DCA 4",
+        "id": 35
+      },
+      {
+        "name": "Monitor",
+        "id": 36
+      }
+    ]
+  },
+  "native_source_enum_tables": {
+    "COLORS": [
+      "OFF",
+      "RD",
+      "GN",
+      "YE",
+      "BL",
+      "MG",
+      "CY",
+      "WH",
+      "OFFi",
+      "RDi",
+      "GNi",
+      "YEi",
+      "BLi",
+      "MGi",
+      "CYi",
+      "WHi"
+    ],
+    "GATE_MODES": [
+      "EXP2",
+      "EXP3",
+      "EXP4",
+      "GATE",
+      "DUCK"
+    ],
+    "DYN_MODES": [
+      "COMP",
+      "EXP"
+    ],
+    "DYN_DET": [
+      "PEAK",
+      "RMS"
+    ],
+    "DYN_ENV": [
+      "LIN",
+      "LOG"
+    ],
+    "DYN_POS": [
+      "PRE",
+      "POST"
+    ],
+    "DYN_RATIO": [
+      "1.1",
+      "1.3",
+      "1.5",
+      "2.0",
+      "2.5",
+      "3.0",
+      "4.0",
+      "5.0",
+      "7.0",
+      "10",
+      "20",
+      "100"
+    ],
+    "EQ_TYPES": [
+      "LCut",
+      "LShv",
+      "PEQ",
+      "VEQ",
+      "HShv",
+      "HCut"
+    ],
+    "INSERT_SEL": [
+      "OFF",
+      "FX1",
+      "FX2",
+      "FX3",
+      "FX4"
+    ],
+    "KEYSRC": [
+      "SELF",
+      "CH01",
+      "CH02",
+      "CH03",
+      "CH04",
+      "CH05",
+      "CH06",
+      "CH07",
+      "CH08",
+      "CH09",
+      "CH10",
+      "CH11",
+      "CH12",
+      "CH13",
+      "CH14",
+      "CH15",
+      "CH16",
+      "BUS1",
+      "BUS2",
+      "BUS3",
+      "BUS4",
+      "BUS5",
+      "BUS6"
+    ],
+    "TAP_POINTS": [
+      "IN",
+      "PREEQ",
+      "POSTEQ",
+      "PRE",
+      "POST",
+      "GRP"
+    ],
+    "HP_SLOPES": [
+      "12",
+      "18",
+      "24"
+    ],
+    "AUTOMIX_GROUPS": [
+      "OFF",
+      "X",
+      "Y"
+    ],
+    "SOLO_SOURCES": [
+      "OFF",
+      "LR",
+      "LR+M",
+      "LR PFL",
+      "LR AFL",
+      "AUX 5/6",
+      "AUX 7/8"
+    ],
+    "FX_TYPES": [
+      "HALL",
+      "AMBI",
+      "RPLT",
+      "ROOM",
+      "CHAM",
+      "PLAT",
+      "VREV",
+      "VRM",
+      "GATE",
+      "RVRS",
+      "DLY",
+      "3TAP",
+      "4TAP",
+      "CRS",
+      "FLNG",
+      "PHAS",
+      "DIMC",
+      "FILT",
+      "ROTA",
+      "PAN",
+      "SUB",
+      "D/RV",
+      "CR/R",
+      "FL/R",
+      "D/CR",
+      "D/FL",
+      "MODD",
+      "GEQ2",
+      "GEQ",
+      "TEQ2",
+      "TEQ",
+      "DES2",
+      "DES",
+      "P1A",
+      "P1A2",
+      "PQ5",
+      "PQ5S",
+      "WAVD",
+      "LIM",
+      "CMB",
+      "CMB2",
+      "FAC",
+      "FAC1M",
+      "FAC2",
+      "LEC",
+      "LEC2",
+      "ULC",
+      "ULC2",
+      "ENH2",
+      "ENH",
+      "EXC2",
+      "EXC",
+      "IMG",
+      "EDI",
+      "SON",
+      "AMP2",
+      "AMP",
+      "DRV2",
+      "DRV",
+      "PIT2",
+      "PIT"
+    ],
+    "CATEGORIES": [
+      "aux_return",
+      "bus",
+      "channel",
+      "command",
+      "config",
+      "dca",
+      "fx",
+      "fx_return",
+      "fx_send",
+      "headamp",
+      "main_lr",
+      "snapshot",
+      "status"
+    ]
+  },
+  "critical": {
+    "ch.1.cfg.srcSel": [
+      {
+        "name": "Off",
+        "id": 0
+      },
+      {
+        "name": "On",
+        "id": 1
+      }
+    ],
+    "ch.1.routing.srcCfg.0": [
+      {
+        "name": "None - None",
+        "id": 0
+      },
+      {
+        "name": "In 1-8 - In 1",
+        "id": 1
+      },
+      {
+        "name": "In 1-8 - In 2",
+        "id": 2
+      },
+      {
+        "name": "In 1-8 - In 3",
+        "id": 3
+      },
+      {
+        "name": "In 1-8 - In 4",
+        "id": 4
+      },
+      {
+        "name": "In 1-8 - In 5",
+        "id": 5
+      },
+      {
+        "name": "In 1-8 - In 6",
+        "id": 6
+      },
+      {
+        "name": "In 1-8 - In 7",
+        "id": 7
+      },
+      {
+        "name": "In 1-8 - In 8",
+        "id": 8
+      },
+      {
+        "name": "In 9-16 - In 9",
+        "id": 9
+      },
+      {
+        "name": "In 9-16 - In 10",
+        "id": 10
+      },
+      {
+        "name": "In 9-16 - In 11",
+        "id": 11
+      },
+      {
+        "name": "In 9-16 - In 12",
+        "id": 12
+      },
+      {
+        "name": "In 9-16 - In 13",
+        "id": 13
+      },
+      {
+        "name": "In 9-16 - In 14",
+        "id": 14
+      },
+      {
+        "name": "In 9-16 - In 15",
+        "id": 15
+      },
+      {
+        "name": "In 9-16 - In 16",
+        "id": 16
+      },
+      {
+        "name": "Aux - Aux L",
+        "id": 17
+      },
+      {
+        "name": "Aux - Aux R",
+        "id": 18
+      }
+    ],
+    "ch.1.routing.srcCfg.1": [
+      {
+        "name": "USB - U 1",
+        "id": 0
+      },
+      {
+        "name": "USB - U 2",
+        "id": 1
+      },
+      {
+        "name": "USB - U 3",
+        "id": 2
+      },
+      {
+        "name": "USB - U 4",
+        "id": 3
+      },
+      {
+        "name": "USB - U 5",
+        "id": 4
+      },
+      {
+        "name": "USB - U 6",
+        "id": 5
+      },
+      {
+        "name": "USB - U 7",
+        "id": 6
+      },
+      {
+        "name": "USB - U 8",
+        "id": 7
+      },
+      {
+        "name": "USB - U 9",
+        "id": 8
+      },
+      {
+        "name": "USB - U 10",
+        "id": 9
+      },
+      {
+        "name": "USB - U 11",
+        "id": 10
+      },
+      {
+        "name": "USB - U 12",
+        "id": 11
+      },
+      {
+        "name": "USB - U 13",
+        "id": 12
+      },
+      {
+        "name": "USB - U 14",
+        "id": 13
+      },
+      {
+        "name": "USB - U 15",
+        "id": 14
+      },
+      {
+        "name": "USB - U 16",
+        "id": 15
+      },
+      {
+        "name": "USB - U 17",
+        "id": 16
+      },
+      {
+        "name": "USB - U 18",
+        "id": 17
+      }
+    ]
+  }
+}

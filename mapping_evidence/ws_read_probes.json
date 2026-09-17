@@ -1,0 +1,16 @@
+{
+  "/app/state": {
+    "msg": "",
+    "progress": 0,
+    "state": "backgroundSync",
+    "topState": "connected"
+  },
+  "/console/data/get/ch.1.cfg.srcSel/val": {
+    "format": "val",
+    "value": 1.0
+  },
+  "/console/data/val/ch.1.cfg.srcSel": {
+    "error": "Mixing Station API error: Path not found: /console/data/val/ch.1.cfg.srcSel",
+    "type": "RuntimeError"
+  }
+}

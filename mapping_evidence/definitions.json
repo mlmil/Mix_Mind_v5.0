@@ -1,0 +1,4972 @@
+{
+  "": {
+    "error": "HTTP Error 404: Not Found"
+  },
+  "fx": {
+    "node": {}
+  },
+  "fx.rack": {
+    "node": {}
+  },
+  "fx.rack.0": {
+    "node": {}
+  },
+  "fx.rack.1": {
+    "node": {}
+  },
+  "fx.rack.2": {
+    "node": {}
+  },
+  "fx.rack.3": {
+    "node": {}
+  },
+  "fx.cfg": {
+    "node": {}
+  },
+  "fx.cfg.0": {
+    "node": {}
+  },
+  "fx.cfg.1": {
+    "node": {}
+  },
+  "fx.cfg.2": {
+    "node": {}
+  },
+  "fx.cfg.3": {
+    "node": {}
+  },
+  "headamp": {
+    "node": {}
+  },
+  "headamp.11": {
+    "node": {}
+  },
+  "headamp.12": {
+    "node": {}
+  },
+  "headamp.13": {
+    "node": {}
+  },
+  "headamp.14": {
+    "node": {}
+  },
+  "headamp.15": {
+    "node": {}
+  },
+  "headamp.16": {
+    "node": {}
+  },
+  "headamp.0": {
+    "node": {}
+  },
+  "headamp.1": {
+    "node": {}
+  },
+  "headamp.2": {
+    "node": {}
+  },
+  "headamp.3": {
+    "node": {}
+  },
+  "headamp.4": {
+    "node": {}
+  },
+  "headamp.5": {
+    "node": {}
+  },
+  "headamp.6": {
+    "node": {}
+  },
+  "headamp.7": {
+    "node": {}
+  },
+  "headamp.8": {
+    "node": {}
+  },
+  "headamp.9": {
+    "node": {}
+  },
+  "headamp.10": {
+    "node": {}
+  },
+  "ch": {
+    "node": {}
+  },
+  "ch.22": {
+    "node": {}
+  },
+  "ch.22.rawEq": {
+    "node": {}
+  },
+  "ch.22.grp": {
+    "node": {}
+  },
+  "ch.22.grp.dca": {
+    "node": {}
+  },
+  "ch.22.grp.mute": {
+    "node": {}
+  },
+  "ch.22.cfg": {
+    "node": {}
+  },
+  "ch.22.dyn": {
+    "node": {}
+  },
+  "ch.22.dyn.filter": {
+    "node": {}
+  },
+  "ch.22.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.22.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.22.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.22.link": {
+    "node": {}
+  },
+  "ch.22.insX": {
+    "node": {}
+  },
+  "ch.22.insX.0": {
+    "node": {}
+  },
+  "ch.22.mix": {
+    "node": {}
+  },
+  "ch.22.peq": {
+    "node": {}
+  },
+  "ch.22.peq.selBand": {
+    "node": {}
+  },
+  "ch.22.peq.bands": {
+    "node": {}
+  },
+  "ch.22.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.22.levelData": {
+    "node": {}
+  },
+  "ch.22.levelData.-1": {
+    "node": {}
+  },
+  "ch.22.info": {
+    "node": {}
+  },
+  "ch.23": {
+    "node": {}
+  },
+  "ch.23.rawEq": {
+    "node": {}
+  },
+  "ch.23.grp": {
+    "node": {}
+  },
+  "ch.23.grp.dca": {
+    "node": {}
+  },
+  "ch.23.grp.mute": {
+    "node": {}
+  },
+  "ch.23.cfg": {
+    "node": {}
+  },
+  "ch.23.dyn": {
+    "node": {}
+  },
+  "ch.23.dyn.filter": {
+    "node": {}
+  },
+  "ch.23.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.23.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.23.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.23.link": {
+    "node": {}
+  },
+  "ch.23.insX": {
+    "node": {}
+  },
+  "ch.23.insX.0": {
+    "node": {}
+  },
+  "ch.23.mix": {
+    "node": {}
+  },
+  "ch.23.peq": {
+    "node": {}
+  },
+  "ch.23.peq.selBand": {
+    "node": {}
+  },
+  "ch.23.peq.bands": {
+    "node": {}
+  },
+  "ch.23.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.23.levelData": {
+    "node": {}
+  },
+  "ch.23.levelData.-1": {
+    "node": {}
+  },
+  "ch.23.info": {
+    "node": {}
+  },
+  "ch.24": {
+    "node": {}
+  },
+  "ch.24.rawEq": {
+    "node": {}
+  },
+  "ch.24.grp": {
+    "node": {}
+  },
+  "ch.24.grp.dca": {
+    "node": {}
+  },
+  "ch.24.grp.mute": {
+    "node": {}
+  },
+  "ch.24.cfg": {
+    "node": {}
+  },
+  "ch.24.dyn": {
+    "node": {}
+  },
+  "ch.24.dyn.filter": {
+    "node": {}
+  },
+  "ch.24.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.24.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.24.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.24.link": {
+    "node": {}
+  },
+  "ch.24.insX": {
+    "node": {}
+  },
+  "ch.24.insX.0": {
+    "node": {}
+  },
+  "ch.24.mix": {
+    "node": {}
+  },
+  "ch.24.peq": {
+    "node": {}
+  },
+  "ch.24.peq.selBand": {
+    "node": {}
+  },
+  "ch.24.peq.bands": {
+    "node": {}
+  },
+  "ch.24.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.24.levelData": {
+    "node": {}
+  },
+  "ch.24.levelData.-1": {
+    "node": {}
+  },
+  "ch.24.info": {
+    "node": {}
+  },
+  "ch.25": {
+    "node": {}
+  },
+  "ch.25.rawEq": {
+    "node": {}
+  },
+  "ch.25.grp": {
+    "node": {}
+  },
+  "ch.25.grp.dca": {
+    "node": {}
+  },
+  "ch.25.grp.mute": {
+    "node": {}
+  },
+  "ch.25.cfg": {
+    "node": {}
+  },
+  "ch.25.dyn": {
+    "node": {}
+  },
+  "ch.25.dyn.filter": {
+    "node": {}
+  },
+  "ch.25.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.25.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.25.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.25.link": {
+    "node": {}
+  },
+  "ch.25.insX": {
+    "node": {}
+  },
+  "ch.25.insX.0": {
+    "node": {}
+  },
+  "ch.25.mix": {
+    "node": {}
+  },
+  "ch.25.peq": {
+    "node": {}
+  },
+  "ch.25.peq.selBand": {
+    "node": {}
+  },
+  "ch.25.peq.bands": {
+    "node": {}
+  },
+  "ch.25.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.25.levelData": {
+    "node": {}
+  },
+  "ch.25.levelData.-1": {
+    "node": {}
+  },
+  "ch.25.info": {
+    "node": {}
+  },
+  "ch.26": {
+    "node": {}
+  },
+  "ch.26.rawEq": {
+    "node": {}
+  },
+  "ch.26.grp": {
+    "node": {}
+  },
+  "ch.26.grp.dca": {
+    "node": {}
+  },
+  "ch.26.grp.mute": {
+    "node": {}
+  },
+  "ch.26.cfg": {
+    "node": {}
+  },
+  "ch.26.dyn": {
+    "node": {}
+  },
+  "ch.26.dyn.filter": {
+    "node": {}
+  },
+  "ch.26.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.26.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.26.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.26.link": {
+    "node": {}
+  },
+  "ch.26.insX": {
+    "node": {}
+  },
+  "ch.26.insX.0": {
+    "node": {}
+  },
+  "ch.26.mix": {
+    "node": {}
+  },
+  "ch.26.peq": {
+    "node": {}
+  },
+  "ch.26.peq.selBand": {
+    "node": {}
+  },
+  "ch.26.peq.bands": {
+    "node": {}
+  },
+  "ch.26.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.26.levelData": {
+    "node": {}
+  },
+  "ch.26.levelData.-1": {
+    "node": {}
+  },
+  "ch.26.info": {
+    "node": {}
+  },
+  "ch.27": {
+    "node": {}
+  },
+  "ch.27.grp": {
+    "node": {}
+  },
+  "ch.27.grp.dca": {
+    "node": {}
+  },
+  "ch.27.grp.mute": {
+    "node": {}
+  },
+  "ch.27.cfg": {
+    "node": {}
+  },
+  "ch.27.mix": {
+    "node": {}
+  },
+  "ch.27.levelData": {
+    "node": {}
+  },
+  "ch.27.levelData.-1": {
+    "node": {}
+  },
+  "ch.27.info": {
+    "node": {}
+  },
+  "ch.28": {
+    "node": {}
+  },
+  "ch.28.grp": {
+    "node": {}
+  },
+  "ch.28.grp.dca": {
+    "node": {}
+  },
+  "ch.28.grp.mute": {
+    "node": {}
+  },
+  "ch.28.cfg": {
+    "node": {}
+  },
+  "ch.28.mix": {
+    "node": {}
+  },
+  "ch.28.levelData": {
+    "node": {}
+  },
+  "ch.28.levelData.-1": {
+    "node": {}
+  },
+  "ch.28.info": {
+    "node": {}
+  },
+  "ch.29": {
+    "node": {}
+  },
+  "ch.29.grp": {
+    "node": {}
+  },
+  "ch.29.grp.dca": {
+    "node": {}
+  },
+  "ch.29.grp.mute": {
+    "node": {}
+  },
+  "ch.29.cfg": {
+    "node": {}
+  },
+  "ch.29.mix": {
+    "node": {}
+  },
+  "ch.29.levelData": {
+    "node": {}
+  },
+  "ch.29.levelData.-1": {
+    "node": {}
+  },
+  "ch.29.info": {
+    "node": {}
+  },
+  "ch.30": {
+    "node": {}
+  },
+  "ch.30.grp": {
+    "node": {}
+  },
+  "ch.30.grp.dca": {
+    "node": {}
+  },
+  "ch.30.grp.mute": {
+    "node": {}
+  },
+  "ch.30.cfg": {
+    "node": {}
+  },
+  "ch.30.mix": {
+    "node": {}
+  },
+  "ch.30.levelData": {
+    "node": {}
+  },
+  "ch.30.levelData.-1": {
+    "node": {}
+  },
+  "ch.30.info": {
+    "node": {}
+  },
+  "ch.31": {
+    "node": {}
+  },
+  "ch.31.rawEq": {
+    "node": {}
+  },
+  "ch.31.cfg": {
+    "node": {}
+  },
+  "ch.31.dyn": {
+    "node": {}
+  },
+  "ch.31.dyn.filter": {
+    "node": {}
+  },
+  "ch.31.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.31.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.31.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.31.insX": {
+    "node": {}
+  },
+  "ch.31.insX.0": {
+    "node": {}
+  },
+  "ch.31.mix": {
+    "node": {}
+  },
+  "ch.31.peq": {
+    "node": {}
+  },
+  "ch.31.peq.levels": {
+    "node": {}
+  },
+  "ch.31.levelData": {
+    "node": {}
+  },
+  "ch.31.levelData.-1": {
+    "node": {}
+  },
+  "ch.31.info": {
+    "node": {}
+  },
+  "ch.10": {
+    "node": {}
+  },
+  "ch.10.rawEq": {
+    "node": {}
+  },
+  "ch.10.amm": {
+    "node": {}
+  },
+  "ch.10.headamp": {
+    "node": {}
+  },
+  "ch.10.grp": {
+    "node": {}
+  },
+  "ch.10.grp.dca": {
+    "node": {}
+  },
+  "ch.10.grp.mute": {
+    "node": {}
+  },
+  "ch.10.cfg": {
+    "node": {}
+  },
+  "ch.10.link": {
+    "node": {}
+  },
+  "ch.10.levelData": {
+    "node": {}
+  },
+  "ch.10.levelData.0": {
+    "node": {}
+  },
+  "ch.10.levelData.1": {
+    "node": {}
+  },
+  "ch.10.levelData.2": {
+    "node": {}
+  },
+  "ch.10.levelData.3": {
+    "node": {}
+  },
+  "ch.10.levelData.-1": {
+    "node": {}
+  },
+  "ch.10.levelData.4": {
+    "node": {}
+  },
+  "ch.10.levelData.5": {
+    "node": {}
+  },
+  "ch.10.levelData.-2": {
+    "node": {}
+  },
+  "ch.10.levelData.6": {
+    "node": {}
+  },
+  "ch.10.levelData.7": {
+    "node": {}
+  },
+  "ch.10.levelData.8": {
+    "node": {}
+  },
+  "ch.10.levelData.9": {
+    "node": {}
+  },
+  "ch.10.routing": {
+    "node": {}
+  },
+  "ch.10.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.10.preamp": {
+    "node": {}
+  },
+  "ch.10.preamp.filter": {
+    "node": {}
+  },
+  "ch.10.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.10.dyn": {
+    "node": {}
+  },
+  "ch.10.dyn.filter": {
+    "node": {}
+  },
+  "ch.10.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.10.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.10.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.10.gate": {
+    "node": {}
+  },
+  "ch.10.gate.filter": {
+    "node": {}
+  },
+  "ch.10.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.10.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.10.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.10.insX": {
+    "node": {}
+  },
+  "ch.10.insX.0": {
+    "node": {}
+  },
+  "ch.10.mix": {
+    "node": {}
+  },
+  "ch.10.mix.sends": {
+    "node": {}
+  },
+  "ch.10.mix.sends.0": {
+    "node": {}
+  },
+  "ch.10.mix.sends.1": {
+    "node": {}
+  },
+  "ch.10.mix.sends.2": {
+    "node": {}
+  },
+  "ch.10.mix.sends.3": {
+    "node": {}
+  },
+  "ch.10.mix.sends.4": {
+    "node": {}
+  },
+  "ch.10.mix.sends.5": {
+    "node": {}
+  },
+  "ch.10.mix.sends.6": {
+    "node": {}
+  },
+  "ch.10.mix.sends.7": {
+    "node": {}
+  },
+  "ch.10.mix.sends.8": {
+    "node": {}
+  },
+  "ch.10.mix.sends.9": {
+    "node": {}
+  },
+  "ch.10.peq": {
+    "node": {}
+  },
+  "ch.10.peq.selBand": {
+    "node": {}
+  },
+  "ch.10.peq.bands": {
+    "node": {}
+  },
+  "ch.10.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.10.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.10.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.10.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.10.info": {
+    "node": {}
+  },
+  "ch.32": {
+    "node": {}
+  },
+  "ch.32.cfg": {
+    "node": {}
+  },
+  "ch.32.mix": {
+    "node": {}
+  },
+  "ch.32.levelData": {
+    "node": {}
+  },
+  "ch.32.levelData.0": {
+    "node": {}
+  },
+  "ch.32.levelData.1": {
+    "node": {}
+  },
+  "ch.32.levelData.2": {
+    "node": {}
+  },
+  "ch.32.levelData.3": {
+    "node": {}
+  },
+  "ch.32.levelData.-1": {
+    "node": {}
+  },
+  "ch.32.levelData.4": {
+    "node": {}
+  },
+  "ch.32.levelData.5": {
+    "node": {}
+  },
+  "ch.32.levelData.6": {
+    "node": {}
+  },
+  "ch.32.levelData.7": {
+    "node": {}
+  },
+  "ch.32.levelData.8": {
+    "node": {}
+  },
+  "ch.32.levelData.9": {
+    "node": {}
+  },
+  "ch.32.info": {
+    "node": {}
+  },
+  "ch.11": {
+    "node": {}
+  },
+  "ch.11.rawEq": {
+    "node": {}
+  },
+  "ch.11.amm": {
+    "node": {}
+  },
+  "ch.11.headamp": {
+    "node": {}
+  },
+  "ch.11.grp": {
+    "node": {}
+  },
+  "ch.11.grp.dca": {
+    "node": {}
+  },
+  "ch.11.grp.mute": {
+    "node": {}
+  },
+  "ch.11.cfg": {
+    "node": {}
+  },
+  "ch.11.link": {
+    "node": {}
+  },
+  "ch.11.levelData": {
+    "node": {}
+  },
+  "ch.11.levelData.0": {
+    "node": {}
+  },
+  "ch.11.levelData.1": {
+    "node": {}
+  },
+  "ch.11.levelData.2": {
+    "node": {}
+  },
+  "ch.11.levelData.3": {
+    "node": {}
+  },
+  "ch.11.levelData.-1": {
+    "node": {}
+  },
+  "ch.11.levelData.4": {
+    "node": {}
+  },
+  "ch.11.levelData.5": {
+    "node": {}
+  },
+  "ch.11.levelData.-2": {
+    "node": {}
+  },
+  "ch.11.levelData.6": {
+    "node": {}
+  },
+  "ch.11.levelData.7": {
+    "node": {}
+  },
+  "ch.11.levelData.8": {
+    "node": {}
+  },
+  "ch.11.levelData.9": {
+    "node": {}
+  },
+  "ch.11.routing": {
+    "node": {}
+  },
+  "ch.11.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.11.preamp": {
+    "node": {}
+  },
+  "ch.11.preamp.filter": {
+    "node": {}
+  },
+  "ch.11.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.11.dyn": {
+    "node": {}
+  },
+  "ch.11.dyn.filter": {
+    "node": {}
+  },
+  "ch.11.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.11.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.11.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.11.gate": {
+    "node": {}
+  },
+  "ch.11.gate.filter": {
+    "node": {}
+  },
+  "ch.11.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.11.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.11.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.11.insX": {
+    "node": {}
+  },
+  "ch.11.insX.0": {
+    "node": {}
+  },
+  "ch.11.mix": {
+    "node": {}
+  },
+  "ch.11.mix.sends": {
+    "node": {}
+  },
+  "ch.11.mix.sends.0": {
+    "node": {}
+  },
+  "ch.11.mix.sends.1": {
+    "node": {}
+  },
+  "ch.11.mix.sends.2": {
+    "node": {}
+  },
+  "ch.11.mix.sends.3": {
+    "node": {}
+  },
+  "ch.11.mix.sends.4": {
+    "node": {}
+  },
+  "ch.11.mix.sends.5": {
+    "node": {}
+  },
+  "ch.11.mix.sends.6": {
+    "node": {}
+  },
+  "ch.11.mix.sends.7": {
+    "node": {}
+  },
+  "ch.11.mix.sends.8": {
+    "node": {}
+  },
+  "ch.11.mix.sends.9": {
+    "node": {}
+  },
+  "ch.11.peq": {
+    "node": {}
+  },
+  "ch.11.peq.selBand": {
+    "node": {}
+  },
+  "ch.11.peq.bands": {
+    "node": {}
+  },
+  "ch.11.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.11.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.11.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.11.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.11.info": {
+    "node": {}
+  },
+  "ch.33": {
+    "node": {}
+  },
+  "ch.33.cfg": {
+    "node": {}
+  },
+  "ch.33.mix": {
+    "node": {}
+  },
+  "ch.33.levelData": {
+    "node": {}
+  },
+  "ch.33.levelData.0": {
+    "node": {}
+  },
+  "ch.33.levelData.1": {
+    "node": {}
+  },
+  "ch.33.levelData.2": {
+    "node": {}
+  },
+  "ch.33.levelData.3": {
+    "node": {}
+  },
+  "ch.33.levelData.-1": {
+    "node": {}
+  },
+  "ch.33.levelData.4": {
+    "node": {}
+  },
+  "ch.33.levelData.5": {
+    "node": {}
+  },
+  "ch.33.levelData.6": {
+    "node": {}
+  },
+  "ch.33.levelData.7": {
+    "node": {}
+  },
+  "ch.33.levelData.8": {
+    "node": {}
+  },
+  "ch.33.levelData.9": {
+    "node": {}
+  },
+  "ch.33.info": {
+    "node": {}
+  },
+  "ch.12": {
+    "node": {}
+  },
+  "ch.12.rawEq": {
+    "node": {}
+  },
+  "ch.12.amm": {
+    "node": {}
+  },
+  "ch.12.headamp": {
+    "node": {}
+  },
+  "ch.12.grp": {
+    "node": {}
+  },
+  "ch.12.grp.dca": {
+    "node": {}
+  },
+  "ch.12.grp.mute": {
+    "node": {}
+  },
+  "ch.12.cfg": {
+    "node": {}
+  },
+  "ch.12.link": {
+    "node": {}
+  },
+  "ch.12.levelData": {
+    "node": {}
+  },
+  "ch.12.levelData.0": {
+    "node": {}
+  },
+  "ch.12.levelData.1": {
+    "node": {}
+  },
+  "ch.12.levelData.2": {
+    "node": {}
+  },
+  "ch.12.levelData.3": {
+    "node": {}
+  },
+  "ch.12.levelData.-1": {
+    "node": {}
+  },
+  "ch.12.levelData.4": {
+    "node": {}
+  },
+  "ch.12.levelData.5": {
+    "node": {}
+  },
+  "ch.12.levelData.-2": {
+    "node": {}
+  },
+  "ch.12.levelData.6": {
+    "node": {}
+  },
+  "ch.12.levelData.7": {
+    "node": {}
+  },
+  "ch.12.levelData.8": {
+    "node": {}
+  },
+  "ch.12.levelData.9": {
+    "node": {}
+  },
+  "ch.12.routing": {
+    "node": {}
+  },
+  "ch.12.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.12.preamp": {
+    "node": {}
+  },
+  "ch.12.preamp.filter": {
+    "node": {}
+  },
+  "ch.12.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.12.dyn": {
+    "node": {}
+  },
+  "ch.12.dyn.filter": {
+    "node": {}
+  },
+  "ch.12.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.12.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.12.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.12.gate": {
+    "node": {}
+  },
+  "ch.12.gate.filter": {
+    "node": {}
+  },
+  "ch.12.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.12.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.12.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.12.insX": {
+    "node": {}
+  },
+  "ch.12.insX.0": {
+    "node": {}
+  },
+  "ch.12.mix": {
+    "node": {}
+  },
+  "ch.12.mix.sends": {
+    "node": {}
+  },
+  "ch.12.mix.sends.0": {
+    "node": {}
+  },
+  "ch.12.mix.sends.1": {
+    "node": {}
+  },
+  "ch.12.mix.sends.2": {
+    "node": {}
+  },
+  "ch.12.mix.sends.3": {
+    "node": {}
+  },
+  "ch.12.mix.sends.4": {
+    "node": {}
+  },
+  "ch.12.mix.sends.5": {
+    "node": {}
+  },
+  "ch.12.mix.sends.6": {
+    "node": {}
+  },
+  "ch.12.mix.sends.7": {
+    "node": {}
+  },
+  "ch.12.mix.sends.8": {
+    "node": {}
+  },
+  "ch.12.mix.sends.9": {
+    "node": {}
+  },
+  "ch.12.peq": {
+    "node": {}
+  },
+  "ch.12.peq.selBand": {
+    "node": {}
+  },
+  "ch.12.peq.bands": {
+    "node": {}
+  },
+  "ch.12.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.12.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.12.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.12.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.12.info": {
+    "node": {}
+  },
+  "ch.34": {
+    "node": {}
+  },
+  "ch.34.cfg": {
+    "node": {}
+  },
+  "ch.34.mix": {
+    "node": {}
+  },
+  "ch.34.levelData": {
+    "node": {}
+  },
+  "ch.34.levelData.0": {
+    "node": {}
+  },
+  "ch.34.levelData.1": {
+    "node": {}
+  },
+  "ch.34.levelData.2": {
+    "node": {}
+  },
+  "ch.34.levelData.3": {
+    "node": {}
+  },
+  "ch.34.levelData.-1": {
+    "node": {}
+  },
+  "ch.34.levelData.4": {
+    "node": {}
+  },
+  "ch.34.levelData.5": {
+    "node": {}
+  },
+  "ch.34.levelData.6": {
+    "node": {}
+  },
+  "ch.34.levelData.7": {
+    "node": {}
+  },
+  "ch.34.levelData.8": {
+    "node": {}
+  },
+  "ch.34.levelData.9": {
+    "node": {}
+  },
+  "ch.34.info": {
+    "node": {}
+  },
+  "ch.13": {
+    "node": {}
+  },
+  "ch.13.rawEq": {
+    "node": {}
+  },
+  "ch.13.amm": {
+    "node": {}
+  },
+  "ch.13.headamp": {
+    "node": {}
+  },
+  "ch.13.grp": {
+    "node": {}
+  },
+  "ch.13.grp.dca": {
+    "node": {}
+  },
+  "ch.13.grp.mute": {
+    "node": {}
+  },
+  "ch.13.cfg": {
+    "node": {}
+  },
+  "ch.13.link": {
+    "node": {}
+  },
+  "ch.13.levelData": {
+    "node": {}
+  },
+  "ch.13.levelData.0": {
+    "node": {}
+  },
+  "ch.13.levelData.1": {
+    "node": {}
+  },
+  "ch.13.levelData.2": {
+    "node": {}
+  },
+  "ch.13.levelData.3": {
+    "node": {}
+  },
+  "ch.13.levelData.-1": {
+    "node": {}
+  },
+  "ch.13.levelData.4": {
+    "node": {}
+  },
+  "ch.13.levelData.5": {
+    "node": {}
+  },
+  "ch.13.levelData.-2": {
+    "node": {}
+  },
+  "ch.13.levelData.6": {
+    "node": {}
+  },
+  "ch.13.levelData.7": {
+    "node": {}
+  },
+  "ch.13.levelData.8": {
+    "node": {}
+  },
+  "ch.13.levelData.9": {
+    "node": {}
+  },
+  "ch.13.routing": {
+    "node": {}
+  },
+  "ch.13.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.13.preamp": {
+    "node": {}
+  },
+  "ch.13.preamp.filter": {
+    "node": {}
+  },
+  "ch.13.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.13.dyn": {
+    "node": {}
+  },
+  "ch.13.dyn.filter": {
+    "node": {}
+  },
+  "ch.13.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.13.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.13.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.13.gate": {
+    "node": {}
+  },
+  "ch.13.gate.filter": {
+    "node": {}
+  },
+  "ch.13.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.13.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.13.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.13.insX": {
+    "node": {}
+  },
+  "ch.13.insX.0": {
+    "node": {}
+  },
+  "ch.13.mix": {
+    "node": {}
+  },
+  "ch.13.mix.sends": {
+    "node": {}
+  },
+  "ch.13.mix.sends.0": {
+    "node": {}
+  },
+  "ch.13.mix.sends.1": {
+    "node": {}
+  },
+  "ch.13.mix.sends.2": {
+    "node": {}
+  },
+  "ch.13.mix.sends.3": {
+    "node": {}
+  },
+  "ch.13.mix.sends.4": {
+    "node": {}
+  },
+  "ch.13.mix.sends.5": {
+    "node": {}
+  },
+  "ch.13.mix.sends.6": {
+    "node": {}
+  },
+  "ch.13.mix.sends.7": {
+    "node": {}
+  },
+  "ch.13.mix.sends.8": {
+    "node": {}
+  },
+  "ch.13.mix.sends.9": {
+    "node": {}
+  },
+  "ch.13.peq": {
+    "node": {}
+  },
+  "ch.13.peq.selBand": {
+    "node": {}
+  },
+  "ch.13.peq.bands": {
+    "node": {}
+  },
+  "ch.13.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.13.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.13.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.13.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.13.info": {
+    "node": {}
+  },
+  "ch.35": {
+    "node": {}
+  },
+  "ch.35.cfg": {
+    "node": {}
+  },
+  "ch.35.mix": {
+    "node": {}
+  },
+  "ch.35.levelData": {
+    "node": {}
+  },
+  "ch.35.levelData.0": {
+    "node": {}
+  },
+  "ch.35.levelData.1": {
+    "node": {}
+  },
+  "ch.35.levelData.2": {
+    "node": {}
+  },
+  "ch.35.levelData.3": {
+    "node": {}
+  },
+  "ch.35.levelData.-1": {
+    "node": {}
+  },
+  "ch.35.levelData.4": {
+    "node": {}
+  },
+  "ch.35.levelData.5": {
+    "node": {}
+  },
+  "ch.35.levelData.6": {
+    "node": {}
+  },
+  "ch.35.levelData.7": {
+    "node": {}
+  },
+  "ch.35.levelData.8": {
+    "node": {}
+  },
+  "ch.35.levelData.9": {
+    "node": {}
+  },
+  "ch.35.info": {
+    "node": {}
+  },
+  "ch.14": {
+    "node": {}
+  },
+  "ch.14.rawEq": {
+    "node": {}
+  },
+  "ch.14.amm": {
+    "node": {}
+  },
+  "ch.14.headamp": {
+    "node": {}
+  },
+  "ch.14.grp": {
+    "node": {}
+  },
+  "ch.14.grp.dca": {
+    "node": {}
+  },
+  "ch.14.grp.mute": {
+    "node": {}
+  },
+  "ch.14.cfg": {
+    "node": {}
+  },
+  "ch.14.link": {
+    "node": {}
+  },
+  "ch.14.levelData": {
+    "node": {}
+  },
+  "ch.14.levelData.0": {
+    "node": {}
+  },
+  "ch.14.levelData.1": {
+    "node": {}
+  },
+  "ch.14.levelData.2": {
+    "node": {}
+  },
+  "ch.14.levelData.3": {
+    "node": {}
+  },
+  "ch.14.levelData.-1": {
+    "node": {}
+  },
+  "ch.14.levelData.4": {
+    "node": {}
+  },
+  "ch.14.levelData.5": {
+    "node": {}
+  },
+  "ch.14.levelData.-2": {
+    "node": {}
+  },
+  "ch.14.levelData.6": {
+    "node": {}
+  },
+  "ch.14.levelData.7": {
+    "node": {}
+  },
+  "ch.14.levelData.8": {
+    "node": {}
+  },
+  "ch.14.levelData.9": {
+    "node": {}
+  },
+  "ch.14.routing": {
+    "node": {}
+  },
+  "ch.14.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.14.preamp": {
+    "node": {}
+  },
+  "ch.14.preamp.filter": {
+    "node": {}
+  },
+  "ch.14.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.14.dyn": {
+    "node": {}
+  },
+  "ch.14.dyn.filter": {
+    "node": {}
+  },
+  "ch.14.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.14.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.14.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.14.gate": {
+    "node": {}
+  },
+  "ch.14.gate.filter": {
+    "node": {}
+  },
+  "ch.14.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.14.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.14.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.14.insX": {
+    "node": {}
+  },
+  "ch.14.insX.0": {
+    "node": {}
+  },
+  "ch.14.mix": {
+    "node": {}
+  },
+  "ch.14.mix.sends": {
+    "node": {}
+  },
+  "ch.14.mix.sends.0": {
+    "node": {}
+  },
+  "ch.14.mix.sends.1": {
+    "node": {}
+  },
+  "ch.14.mix.sends.2": {
+    "node": {}
+  },
+  "ch.14.mix.sends.3": {
+    "node": {}
+  },
+  "ch.14.mix.sends.4": {
+    "node": {}
+  },
+  "ch.14.mix.sends.5": {
+    "node": {}
+  },
+  "ch.14.mix.sends.6": {
+    "node": {}
+  },
+  "ch.14.mix.sends.7": {
+    "node": {}
+  },
+  "ch.14.mix.sends.8": {
+    "node": {}
+  },
+  "ch.14.mix.sends.9": {
+    "node": {}
+  },
+  "ch.14.peq": {
+    "node": {}
+  },
+  "ch.14.peq.selBand": {
+    "node": {}
+  },
+  "ch.14.peq.bands": {
+    "node": {}
+  },
+  "ch.14.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.14.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.14.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.14.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.14.info": {
+    "node": {}
+  },
+  "ch.15": {
+    "node": {}
+  },
+  "ch.15.rawEq": {
+    "node": {}
+  },
+  "ch.15.amm": {
+    "node": {}
+  },
+  "ch.15.headamp": {
+    "node": {}
+  },
+  "ch.15.grp": {
+    "node": {}
+  },
+  "ch.15.grp.dca": {
+    "node": {}
+  },
+  "ch.15.grp.mute": {
+    "node": {}
+  },
+  "ch.15.cfg": {
+    "node": {}
+  },
+  "ch.15.link": {
+    "node": {}
+  },
+  "ch.15.levelData": {
+    "node": {}
+  },
+  "ch.15.levelData.0": {
+    "node": {}
+  },
+  "ch.15.levelData.1": {
+    "node": {}
+  },
+  "ch.15.levelData.2": {
+    "node": {}
+  },
+  "ch.15.levelData.3": {
+    "node": {}
+  },
+  "ch.15.levelData.-1": {
+    "node": {}
+  },
+  "ch.15.levelData.4": {
+    "node": {}
+  },
+  "ch.15.levelData.5": {
+    "node": {}
+  },
+  "ch.15.levelData.-2": {
+    "node": {}
+  },
+  "ch.15.levelData.6": {
+    "node": {}
+  },
+  "ch.15.levelData.7": {
+    "node": {}
+  },
+  "ch.15.levelData.8": {
+    "node": {}
+  },
+  "ch.15.levelData.9": {
+    "node": {}
+  },
+  "ch.15.routing": {
+    "node": {}
+  },
+  "ch.15.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.15.preamp": {
+    "node": {}
+  },
+  "ch.15.preamp.filter": {
+    "node": {}
+  },
+  "ch.15.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.15.dyn": {
+    "node": {}
+  },
+  "ch.15.dyn.filter": {
+    "node": {}
+  },
+  "ch.15.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.15.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.15.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.15.gate": {
+    "node": {}
+  },
+  "ch.15.gate.filter": {
+    "node": {}
+  },
+  "ch.15.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.15.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.15.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.15.insX": {
+    "node": {}
+  },
+  "ch.15.insX.0": {
+    "node": {}
+  },
+  "ch.15.mix": {
+    "node": {}
+  },
+  "ch.15.mix.sends": {
+    "node": {}
+  },
+  "ch.15.mix.sends.0": {
+    "node": {}
+  },
+  "ch.15.mix.sends.1": {
+    "node": {}
+  },
+  "ch.15.mix.sends.2": {
+    "node": {}
+  },
+  "ch.15.mix.sends.3": {
+    "node": {}
+  },
+  "ch.15.mix.sends.4": {
+    "node": {}
+  },
+  "ch.15.mix.sends.5": {
+    "node": {}
+  },
+  "ch.15.mix.sends.6": {
+    "node": {}
+  },
+  "ch.15.mix.sends.7": {
+    "node": {}
+  },
+  "ch.15.mix.sends.8": {
+    "node": {}
+  },
+  "ch.15.mix.sends.9": {
+    "node": {}
+  },
+  "ch.15.peq": {
+    "node": {}
+  },
+  "ch.15.peq.selBand": {
+    "node": {}
+  },
+  "ch.15.peq.bands": {
+    "node": {}
+  },
+  "ch.15.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.15.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.15.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.15.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.15.info": {
+    "node": {}
+  },
+  "ch.16": {
+    "node": {}
+  },
+  "ch.16.rawEq": {
+    "node": {}
+  },
+  "ch.16.routing": {
+    "node": {}
+  },
+  "ch.16.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.16.headamp": {
+    "node": {}
+  },
+  "ch.16.grp": {
+    "node": {}
+  },
+  "ch.16.grp.dca": {
+    "node": {}
+  },
+  "ch.16.grp.mute": {
+    "node": {}
+  },
+  "ch.16.preamp": {
+    "node": {}
+  },
+  "ch.16.cfg": {
+    "node": {}
+  },
+  "ch.16.mix": {
+    "node": {}
+  },
+  "ch.16.mix.sends": {
+    "node": {}
+  },
+  "ch.16.mix.sends.0": {
+    "node": {}
+  },
+  "ch.16.mix.sends.1": {
+    "node": {}
+  },
+  "ch.16.mix.sends.2": {
+    "node": {}
+  },
+  "ch.16.mix.sends.3": {
+    "node": {}
+  },
+  "ch.16.mix.sends.4": {
+    "node": {}
+  },
+  "ch.16.mix.sends.5": {
+    "node": {}
+  },
+  "ch.16.mix.sends.6": {
+    "node": {}
+  },
+  "ch.16.mix.sends.7": {
+    "node": {}
+  },
+  "ch.16.mix.sends.8": {
+    "node": {}
+  },
+  "ch.16.mix.sends.9": {
+    "node": {}
+  },
+  "ch.16.peq": {
+    "node": {}
+  },
+  "ch.16.peq.selBand": {
+    "node": {}
+  },
+  "ch.16.peq.bands": {
+    "node": {}
+  },
+  "ch.16.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.16.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.16.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.16.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.16.levelData": {
+    "node": {}
+  },
+  "ch.16.levelData.0": {
+    "node": {}
+  },
+  "ch.16.levelData.1": {
+    "node": {}
+  },
+  "ch.16.levelData.2": {
+    "node": {}
+  },
+  "ch.16.levelData.3": {
+    "node": {}
+  },
+  "ch.16.levelData.-1": {
+    "node": {}
+  },
+  "ch.16.levelData.4": {
+    "node": {}
+  },
+  "ch.16.levelData.5": {
+    "node": {}
+  },
+  "ch.16.levelData.-2": {
+    "node": {}
+  },
+  "ch.16.levelData.6": {
+    "node": {}
+  },
+  "ch.16.levelData.7": {
+    "node": {}
+  },
+  "ch.16.levelData.8": {
+    "node": {}
+  },
+  "ch.16.levelData.9": {
+    "node": {}
+  },
+  "ch.16.info": {
+    "node": {}
+  },
+  "ch.17": {
+    "node": {}
+  },
+  "ch.17.rawEq": {
+    "node": {}
+  },
+  "ch.17.routing": {
+    "node": {}
+  },
+  "ch.17.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.17.grp": {
+    "node": {}
+  },
+  "ch.17.grp.dca": {
+    "node": {}
+  },
+  "ch.17.grp.mute": {
+    "node": {}
+  },
+  "ch.17.preamp": {
+    "node": {}
+  },
+  "ch.17.cfg": {
+    "node": {}
+  },
+  "ch.17.mix": {
+    "node": {}
+  },
+  "ch.17.mix.sends": {
+    "node": {}
+  },
+  "ch.17.mix.sends.0": {
+    "node": {}
+  },
+  "ch.17.mix.sends.1": {
+    "node": {}
+  },
+  "ch.17.mix.sends.2": {
+    "node": {}
+  },
+  "ch.17.mix.sends.3": {
+    "node": {}
+  },
+  "ch.17.mix.sends.4": {
+    "node": {}
+  },
+  "ch.17.mix.sends.5": {
+    "node": {}
+  },
+  "ch.17.mix.sends.6": {
+    "node": {}
+  },
+  "ch.17.mix.sends.7": {
+    "node": {}
+  },
+  "ch.17.mix.sends.8": {
+    "node": {}
+  },
+  "ch.17.mix.sends.9": {
+    "node": {}
+  },
+  "ch.17.peq": {
+    "node": {}
+  },
+  "ch.17.peq.selBand": {
+    "node": {}
+  },
+  "ch.17.peq.bands": {
+    "node": {}
+  },
+  "ch.17.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.17.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.17.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.17.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.17.levelData": {
+    "node": {}
+  },
+  "ch.17.levelData.0": {
+    "node": {}
+  },
+  "ch.17.levelData.1": {
+    "node": {}
+  },
+  "ch.17.levelData.2": {
+    "node": {}
+  },
+  "ch.17.levelData.3": {
+    "node": {}
+  },
+  "ch.17.levelData.-1": {
+    "node": {}
+  },
+  "ch.17.levelData.4": {
+    "node": {}
+  },
+  "ch.17.levelData.5": {
+    "node": {}
+  },
+  "ch.17.levelData.6": {
+    "node": {}
+  },
+  "ch.17.levelData.7": {
+    "node": {}
+  },
+  "ch.17.levelData.8": {
+    "node": {}
+  },
+  "ch.17.levelData.9": {
+    "node": {}
+  },
+  "ch.17.info": {
+    "node": {}
+  },
+  "ch.18": {
+    "node": {}
+  },
+  "ch.18.rawEq": {
+    "node": {}
+  },
+  "ch.18.routing": {
+    "node": {}
+  },
+  "ch.18.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.18.grp": {
+    "node": {}
+  },
+  "ch.18.grp.dca": {
+    "node": {}
+  },
+  "ch.18.grp.mute": {
+    "node": {}
+  },
+  "ch.18.preamp": {
+    "node": {}
+  },
+  "ch.18.cfg": {
+    "node": {}
+  },
+  "ch.18.mix": {
+    "node": {}
+  },
+  "ch.18.mix.sends": {
+    "node": {}
+  },
+  "ch.18.mix.sends.0": {
+    "node": {}
+  },
+  "ch.18.mix.sends.1": {
+    "node": {}
+  },
+  "ch.18.mix.sends.2": {
+    "node": {}
+  },
+  "ch.18.mix.sends.3": {
+    "node": {}
+  },
+  "ch.18.mix.sends.4": {
+    "node": {}
+  },
+  "ch.18.mix.sends.5": {
+    "node": {}
+  },
+  "ch.18.mix.sends.6": {
+    "node": {}
+  },
+  "ch.18.mix.sends.7": {
+    "node": {}
+  },
+  "ch.18.mix.sends.8": {
+    "node": {}
+  },
+  "ch.18.mix.sends.9": {
+    "node": {}
+  },
+  "ch.18.peq": {
+    "node": {}
+  },
+  "ch.18.peq.selBand": {
+    "node": {}
+  },
+  "ch.18.peq.bands": {
+    "node": {}
+  },
+  "ch.18.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.18.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.18.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.18.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.18.levelData": {
+    "node": {}
+  },
+  "ch.18.levelData.0": {
+    "node": {}
+  },
+  "ch.18.levelData.1": {
+    "node": {}
+  },
+  "ch.18.levelData.2": {
+    "node": {}
+  },
+  "ch.18.levelData.3": {
+    "node": {}
+  },
+  "ch.18.levelData.-1": {
+    "node": {}
+  },
+  "ch.18.levelData.4": {
+    "node": {}
+  },
+  "ch.18.levelData.5": {
+    "node": {}
+  },
+  "ch.18.levelData.6": {
+    "node": {}
+  },
+  "ch.18.levelData.7": {
+    "node": {}
+  },
+  "ch.18.levelData.8": {
+    "node": {}
+  },
+  "ch.18.levelData.9": {
+    "node": {}
+  },
+  "ch.18.info": {
+    "node": {}
+  },
+  "ch.19": {
+    "node": {}
+  },
+  "ch.19.rawEq": {
+    "node": {}
+  },
+  "ch.19.routing": {
+    "node": {}
+  },
+  "ch.19.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.19.grp": {
+    "node": {}
+  },
+  "ch.19.grp.dca": {
+    "node": {}
+  },
+  "ch.19.grp.mute": {
+    "node": {}
+  },
+  "ch.19.preamp": {
+    "node": {}
+  },
+  "ch.19.cfg": {
+    "node": {}
+  },
+  "ch.19.mix": {
+    "node": {}
+  },
+  "ch.19.mix.sends": {
+    "node": {}
+  },
+  "ch.19.mix.sends.0": {
+    "node": {}
+  },
+  "ch.19.mix.sends.1": {
+    "node": {}
+  },
+  "ch.19.mix.sends.2": {
+    "node": {}
+  },
+  "ch.19.mix.sends.3": {
+    "node": {}
+  },
+  "ch.19.mix.sends.4": {
+    "node": {}
+  },
+  "ch.19.mix.sends.5": {
+    "node": {}
+  },
+  "ch.19.mix.sends.6": {
+    "node": {}
+  },
+  "ch.19.mix.sends.7": {
+    "node": {}
+  },
+  "ch.19.mix.sends.8": {
+    "node": {}
+  },
+  "ch.19.mix.sends.9": {
+    "node": {}
+  },
+  "ch.19.peq": {
+    "node": {}
+  },
+  "ch.19.peq.selBand": {
+    "node": {}
+  },
+  "ch.19.peq.bands": {
+    "node": {}
+  },
+  "ch.19.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.19.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.19.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.19.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.19.levelData": {
+    "node": {}
+  },
+  "ch.19.levelData.0": {
+    "node": {}
+  },
+  "ch.19.levelData.1": {
+    "node": {}
+  },
+  "ch.19.levelData.2": {
+    "node": {}
+  },
+  "ch.19.levelData.3": {
+    "node": {}
+  },
+  "ch.19.levelData.-1": {
+    "node": {}
+  },
+  "ch.19.levelData.4": {
+    "node": {}
+  },
+  "ch.19.levelData.5": {
+    "node": {}
+  },
+  "ch.19.levelData.6": {
+    "node": {}
+  },
+  "ch.19.levelData.7": {
+    "node": {}
+  },
+  "ch.19.levelData.8": {
+    "node": {}
+  },
+  "ch.19.levelData.9": {
+    "node": {}
+  },
+  "ch.19.info": {
+    "node": {}
+  },
+  "ch.0": {
+    "node": {}
+  },
+  "ch.0.rawEq": {
+    "node": {}
+  },
+  "ch.0.amm": {
+    "node": {}
+  },
+  "ch.0.headamp": {
+    "node": {}
+  },
+  "ch.0.grp": {
+    "node": {}
+  },
+  "ch.0.grp.dca": {
+    "node": {}
+  },
+  "ch.0.grp.mute": {
+    "node": {}
+  },
+  "ch.0.cfg": {
+    "node": {}
+  },
+  "ch.0.link": {
+    "node": {}
+  },
+  "ch.0.levelData": {
+    "node": {}
+  },
+  "ch.0.levelData.0": {
+    "node": {}
+  },
+  "ch.0.levelData.1": {
+    "node": {}
+  },
+  "ch.0.levelData.2": {
+    "node": {}
+  },
+  "ch.0.levelData.3": {
+    "node": {}
+  },
+  "ch.0.levelData.-1": {
+    "node": {}
+  },
+  "ch.0.levelData.4": {
+    "node": {}
+  },
+  "ch.0.levelData.5": {
+    "node": {}
+  },
+  "ch.0.levelData.-2": {
+    "node": {}
+  },
+  "ch.0.levelData.6": {
+    "node": {}
+  },
+  "ch.0.levelData.7": {
+    "node": {}
+  },
+  "ch.0.levelData.8": {
+    "node": {}
+  },
+  "ch.0.levelData.9": {
+    "node": {}
+  },
+  "ch.0.routing": {
+    "node": {}
+  },
+  "ch.0.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.0.preamp": {
+    "node": {}
+  },
+  "ch.0.preamp.filter": {
+    "node": {}
+  },
+  "ch.0.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.0.dyn": {
+    "node": {}
+  },
+  "ch.0.dyn.filter": {
+    "node": {}
+  },
+  "ch.0.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.0.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.0.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.0.gate": {
+    "node": {}
+  },
+  "ch.0.gate.filter": {
+    "node": {}
+  },
+  "ch.0.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.0.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.0.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.0.insX": {
+    "node": {}
+  },
+  "ch.0.insX.0": {
+    "node": {}
+  },
+  "ch.0.mix": {
+    "node": {}
+  },
+  "ch.0.mix.sends": {
+    "node": {}
+  },
+  "ch.0.mix.sends.0": {
+    "node": {}
+  },
+  "ch.0.mix.sends.1": {
+    "node": {}
+  },
+  "ch.0.mix.sends.2": {
+    "node": {}
+  },
+  "ch.0.mix.sends.3": {
+    "node": {}
+  },
+  "ch.0.mix.sends.4": {
+    "node": {}
+  },
+  "ch.0.mix.sends.5": {
+    "node": {}
+  },
+  "ch.0.mix.sends.6": {
+    "node": {}
+  },
+  "ch.0.mix.sends.7": {
+    "node": {}
+  },
+  "ch.0.mix.sends.8": {
+    "node": {}
+  },
+  "ch.0.mix.sends.9": {
+    "node": {}
+  },
+  "ch.0.peq": {
+    "node": {}
+  },
+  "ch.0.peq.selBand": {
+    "node": {}
+  },
+  "ch.0.peq.bands": {
+    "node": {}
+  },
+  "ch.0.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.0.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.0.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.0.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.0.info": {
+    "node": {}
+  },
+  "ch.1": {
+    "node": {}
+  },
+  "ch.1.rawEq": {
+    "node": {}
+  },
+  "ch.1.amm": {
+    "node": {}
+  },
+  "ch.1.headamp": {
+    "node": {}
+  },
+  "ch.1.grp": {
+    "node": {}
+  },
+  "ch.1.grp.dca": {
+    "node": {}
+  },
+  "ch.1.grp.mute": {
+    "node": {}
+  },
+  "ch.1.cfg": {
+    "node": {}
+  },
+  "ch.1.link": {
+    "node": {}
+  },
+  "ch.1.levelData": {
+    "node": {}
+  },
+  "ch.1.levelData.0": {
+    "node": {}
+  },
+  "ch.1.levelData.1": {
+    "node": {}
+  },
+  "ch.1.levelData.2": {
+    "node": {}
+  },
+  "ch.1.levelData.3": {
+    "node": {}
+  },
+  "ch.1.levelData.-1": {
+    "node": {}
+  },
+  "ch.1.levelData.4": {
+    "node": {}
+  },
+  "ch.1.levelData.5": {
+    "node": {}
+  },
+  "ch.1.levelData.-2": {
+    "node": {}
+  },
+  "ch.1.levelData.6": {
+    "node": {}
+  },
+  "ch.1.levelData.7": {
+    "node": {}
+  },
+  "ch.1.levelData.8": {
+    "node": {}
+  },
+  "ch.1.levelData.9": {
+    "node": {}
+  },
+  "ch.1.routing": {
+    "node": {}
+  },
+  "ch.1.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.1.preamp": {
+    "node": {}
+  },
+  "ch.1.preamp.filter": {
+    "node": {}
+  },
+  "ch.1.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.1.dyn": {
+    "node": {}
+  },
+  "ch.1.dyn.filter": {
+    "node": {}
+  },
+  "ch.1.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.1.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.1.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.1.gate": {
+    "node": {}
+  },
+  "ch.1.gate.filter": {
+    "node": {}
+  },
+  "ch.1.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.1.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.1.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.1.insX": {
+    "node": {}
+  },
+  "ch.1.insX.0": {
+    "node": {}
+  },
+  "ch.1.mix": {
+    "node": {}
+  },
+  "ch.1.mix.sends": {
+    "node": {}
+  },
+  "ch.1.mix.sends.0": {
+    "node": {}
+  },
+  "ch.1.mix.sends.1": {
+    "node": {}
+  },
+  "ch.1.mix.sends.2": {
+    "node": {}
+  },
+  "ch.1.mix.sends.3": {
+    "node": {}
+  },
+  "ch.1.mix.sends.4": {
+    "node": {}
+  },
+  "ch.1.mix.sends.5": {
+    "node": {}
+  },
+  "ch.1.mix.sends.6": {
+    "node": {}
+  },
+  "ch.1.mix.sends.7": {
+    "node": {}
+  },
+  "ch.1.mix.sends.8": {
+    "node": {}
+  },
+  "ch.1.mix.sends.9": {
+    "node": {}
+  },
+  "ch.1.peq": {
+    "node": {}
+  },
+  "ch.1.peq.selBand": {
+    "node": {}
+  },
+  "ch.1.peq.bands": {
+    "node": {}
+  },
+  "ch.1.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.1.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.1.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.1.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.1.info": {
+    "node": {}
+  },
+  "ch.2": {
+    "node": {}
+  },
+  "ch.2.rawEq": {
+    "node": {}
+  },
+  "ch.2.amm": {
+    "node": {}
+  },
+  "ch.2.headamp": {
+    "node": {}
+  },
+  "ch.2.grp": {
+    "node": {}
+  },
+  "ch.2.grp.dca": {
+    "node": {}
+  },
+  "ch.2.grp.mute": {
+    "node": {}
+  },
+  "ch.2.cfg": {
+    "node": {}
+  },
+  "ch.2.link": {
+    "node": {}
+  },
+  "ch.2.levelData": {
+    "node": {}
+  },
+  "ch.2.levelData.0": {
+    "node": {}
+  },
+  "ch.2.levelData.1": {
+    "node": {}
+  },
+  "ch.2.levelData.2": {
+    "node": {}
+  },
+  "ch.2.levelData.3": {
+    "node": {}
+  },
+  "ch.2.levelData.-1": {
+    "node": {}
+  },
+  "ch.2.levelData.4": {
+    "node": {}
+  },
+  "ch.2.levelData.5": {
+    "node": {}
+  },
+  "ch.2.levelData.-2": {
+    "node": {}
+  },
+  "ch.2.levelData.6": {
+    "node": {}
+  },
+  "ch.2.levelData.7": {
+    "node": {}
+  },
+  "ch.2.levelData.8": {
+    "node": {}
+  },
+  "ch.2.levelData.9": {
+    "node": {}
+  },
+  "ch.2.routing": {
+    "node": {}
+  },
+  "ch.2.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.2.preamp": {
+    "node": {}
+  },
+  "ch.2.preamp.filter": {
+    "node": {}
+  },
+  "ch.2.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.2.dyn": {
+    "node": {}
+  },
+  "ch.2.dyn.filter": {
+    "node": {}
+  },
+  "ch.2.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.2.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.2.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.2.gate": {
+    "node": {}
+  },
+  "ch.2.gate.filter": {
+    "node": {}
+  },
+  "ch.2.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.2.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.2.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.2.insX": {
+    "node": {}
+  },
+  "ch.2.insX.0": {
+    "node": {}
+  },
+  "ch.2.mix": {
+    "node": {}
+  },
+  "ch.2.mix.sends": {
+    "node": {}
+  },
+  "ch.2.mix.sends.0": {
+    "node": {}
+  },
+  "ch.2.mix.sends.1": {
+    "node": {}
+  },
+  "ch.2.mix.sends.2": {
+    "node": {}
+  },
+  "ch.2.mix.sends.3": {
+    "node": {}
+  },
+  "ch.2.mix.sends.4": {
+    "node": {}
+  },
+  "ch.2.mix.sends.5": {
+    "node": {}
+  },
+  "ch.2.mix.sends.6": {
+    "node": {}
+  },
+  "ch.2.mix.sends.7": {
+    "node": {}
+  },
+  "ch.2.mix.sends.8": {
+    "node": {}
+  },
+  "ch.2.mix.sends.9": {
+    "node": {}
+  },
+  "ch.2.peq": {
+    "node": {}
+  },
+  "ch.2.peq.selBand": {
+    "node": {}
+  },
+  "ch.2.peq.bands": {
+    "node": {}
+  },
+  "ch.2.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.2.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.2.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.2.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.2.info": {
+    "node": {}
+  },
+  "ch.3": {
+    "node": {}
+  },
+  "ch.3.rawEq": {
+    "node": {}
+  },
+  "ch.3.amm": {
+    "node": {}
+  },
+  "ch.3.headamp": {
+    "node": {}
+  },
+  "ch.3.grp": {
+    "node": {}
+  },
+  "ch.3.grp.dca": {
+    "node": {}
+  },
+  "ch.3.grp.mute": {
+    "node": {}
+  },
+  "ch.3.cfg": {
+    "node": {}
+  },
+  "ch.3.link": {
+    "node": {}
+  },
+  "ch.3.levelData": {
+    "node": {}
+  },
+  "ch.3.levelData.0": {
+    "node": {}
+  },
+  "ch.3.levelData.1": {
+    "node": {}
+  },
+  "ch.3.levelData.2": {
+    "node": {}
+  },
+  "ch.3.levelData.3": {
+    "node": {}
+  },
+  "ch.3.levelData.-1": {
+    "node": {}
+  },
+  "ch.3.levelData.4": {
+    "node": {}
+  },
+  "ch.3.levelData.5": {
+    "node": {}
+  },
+  "ch.3.levelData.-2": {
+    "node": {}
+  },
+  "ch.3.levelData.6": {
+    "node": {}
+  },
+  "ch.3.levelData.7": {
+    "node": {}
+  },
+  "ch.3.levelData.8": {
+    "node": {}
+  },
+  "ch.3.levelData.9": {
+    "node": {}
+  },
+  "ch.3.routing": {
+    "node": {}
+  },
+  "ch.3.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.3.preamp": {
+    "node": {}
+  },
+  "ch.3.preamp.filter": {
+    "node": {}
+  },
+  "ch.3.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.3.dyn": {
+    "node": {}
+  },
+  "ch.3.dyn.filter": {
+    "node": {}
+  },
+  "ch.3.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.3.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.3.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.3.gate": {
+    "node": {}
+  },
+  "ch.3.gate.filter": {
+    "node": {}
+  },
+  "ch.3.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.3.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.3.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.3.insX": {
+    "node": {}
+  },
+  "ch.3.insX.0": {
+    "node": {}
+  },
+  "ch.3.mix": {
+    "node": {}
+  },
+  "ch.3.mix.sends": {
+    "node": {}
+  },
+  "ch.3.mix.sends.0": {
+    "node": {}
+  },
+  "ch.3.mix.sends.1": {
+    "node": {}
+  },
+  "ch.3.mix.sends.2": {
+    "node": {}
+  },
+  "ch.3.mix.sends.3": {
+    "node": {}
+  },
+  "ch.3.mix.sends.4": {
+    "node": {}
+  },
+  "ch.3.mix.sends.5": {
+    "node": {}
+  },
+  "ch.3.mix.sends.6": {
+    "node": {}
+  },
+  "ch.3.mix.sends.7": {
+    "node": {}
+  },
+  "ch.3.mix.sends.8": {
+    "node": {}
+  },
+  "ch.3.mix.sends.9": {
+    "node": {}
+  },
+  "ch.3.peq": {
+    "node": {}
+  },
+  "ch.3.peq.selBand": {
+    "node": {}
+  },
+  "ch.3.peq.bands": {
+    "node": {}
+  },
+  "ch.3.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.3.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.3.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.3.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.3.info": {
+    "node": {}
+  },
+  "ch.4": {
+    "node": {}
+  },
+  "ch.4.rawEq": {
+    "node": {}
+  },
+  "ch.4.amm": {
+    "node": {}
+  },
+  "ch.4.headamp": {
+    "node": {}
+  },
+  "ch.4.grp": {
+    "node": {}
+  },
+  "ch.4.grp.dca": {
+    "node": {}
+  },
+  "ch.4.grp.mute": {
+    "node": {}
+  },
+  "ch.4.cfg": {
+    "node": {}
+  },
+  "ch.4.link": {
+    "node": {}
+  },
+  "ch.4.levelData": {
+    "node": {}
+  },
+  "ch.4.levelData.0": {
+    "node": {}
+  },
+  "ch.4.levelData.1": {
+    "node": {}
+  },
+  "ch.4.levelData.2": {
+    "node": {}
+  },
+  "ch.4.levelData.3": {
+    "node": {}
+  },
+  "ch.4.levelData.-1": {
+    "node": {}
+  },
+  "ch.4.levelData.4": {
+    "node": {}
+  },
+  "ch.4.levelData.5": {
+    "node": {}
+  },
+  "ch.4.levelData.-2": {
+    "node": {}
+  },
+  "ch.4.levelData.6": {
+    "node": {}
+  },
+  "ch.4.levelData.7": {
+    "node": {}
+  },
+  "ch.4.levelData.8": {
+    "node": {}
+  },
+  "ch.4.levelData.9": {
+    "node": {}
+  },
+  "ch.4.routing": {
+    "node": {}
+  },
+  "ch.4.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.4.preamp": {
+    "node": {}
+  },
+  "ch.4.preamp.filter": {
+    "node": {}
+  },
+  "ch.4.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.4.dyn": {
+    "node": {}
+  },
+  "ch.4.dyn.filter": {
+    "node": {}
+  },
+  "ch.4.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.4.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.4.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.4.gate": {
+    "node": {}
+  },
+  "ch.4.gate.filter": {
+    "node": {}
+  },
+  "ch.4.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.4.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.4.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.4.insX": {
+    "node": {}
+  },
+  "ch.4.insX.0": {
+    "node": {}
+  },
+  "ch.4.mix": {
+    "node": {}
+  },
+  "ch.4.mix.sends": {
+    "node": {}
+  },
+  "ch.4.mix.sends.0": {
+    "node": {}
+  },
+  "ch.4.mix.sends.1": {
+    "node": {}
+  },
+  "ch.4.mix.sends.2": {
+    "node": {}
+  },
+  "ch.4.mix.sends.3": {
+    "node": {}
+  },
+  "ch.4.mix.sends.4": {
+    "node": {}
+  },
+  "ch.4.mix.sends.5": {
+    "node": {}
+  },
+  "ch.4.mix.sends.6": {
+    "node": {}
+  },
+  "ch.4.mix.sends.7": {
+    "node": {}
+  },
+  "ch.4.mix.sends.8": {
+    "node": {}
+  },
+  "ch.4.mix.sends.9": {
+    "node": {}
+  },
+  "ch.4.peq": {
+    "node": {}
+  },
+  "ch.4.peq.selBand": {
+    "node": {}
+  },
+  "ch.4.peq.bands": {
+    "node": {}
+  },
+  "ch.4.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.4.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.4.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.4.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.4.info": {
+    "node": {}
+  },
+  "ch.5": {
+    "node": {}
+  },
+  "ch.5.rawEq": {
+    "node": {}
+  },
+  "ch.5.amm": {
+    "node": {}
+  },
+  "ch.5.headamp": {
+    "node": {}
+  },
+  "ch.5.grp": {
+    "node": {}
+  },
+  "ch.5.grp.dca": {
+    "node": {}
+  },
+  "ch.5.grp.mute": {
+    "node": {}
+  },
+  "ch.5.cfg": {
+    "node": {}
+  },
+  "ch.5.link": {
+    "node": {}
+  },
+  "ch.5.levelData": {
+    "node": {}
+  },
+  "ch.5.levelData.0": {
+    "node": {}
+  },
+  "ch.5.levelData.1": {
+    "node": {}
+  },
+  "ch.5.levelData.2": {
+    "node": {}
+  },
+  "ch.5.levelData.3": {
+    "node": {}
+  },
+  "ch.5.levelData.-1": {
+    "node": {}
+  },
+  "ch.5.levelData.4": {
+    "node": {}
+  },
+  "ch.5.levelData.5": {
+    "node": {}
+  },
+  "ch.5.levelData.-2": {
+    "node": {}
+  },
+  "ch.5.levelData.6": {
+    "node": {}
+  },
+  "ch.5.levelData.7": {
+    "node": {}
+  },
+  "ch.5.levelData.8": {
+    "node": {}
+  },
+  "ch.5.levelData.9": {
+    "node": {}
+  },
+  "ch.5.routing": {
+    "node": {}
+  },
+  "ch.5.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.5.preamp": {
+    "node": {}
+  },
+  "ch.5.preamp.filter": {
+    "node": {}
+  },
+  "ch.5.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.5.dyn": {
+    "node": {}
+  },
+  "ch.5.dyn.filter": {
+    "node": {}
+  },
+  "ch.5.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.5.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.5.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.5.gate": {
+    "node": {}
+  },
+  "ch.5.gate.filter": {
+    "node": {}
+  },
+  "ch.5.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.5.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.5.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.5.insX": {
+    "node": {}
+  },
+  "ch.5.insX.0": {
+    "node": {}
+  },
+  "ch.5.mix": {
+    "node": {}
+  },
+  "ch.5.mix.sends": {
+    "node": {}
+  },
+  "ch.5.mix.sends.0": {
+    "node": {}
+  },
+  "ch.5.mix.sends.1": {
+    "node": {}
+  },
+  "ch.5.mix.sends.2": {
+    "node": {}
+  },
+  "ch.5.mix.sends.3": {
+    "node": {}
+  },
+  "ch.5.mix.sends.4": {
+    "node": {}
+  },
+  "ch.5.mix.sends.5": {
+    "node": {}
+  },
+  "ch.5.mix.sends.6": {
+    "node": {}
+  },
+  "ch.5.mix.sends.7": {
+    "node": {}
+  },
+  "ch.5.mix.sends.8": {
+    "node": {}
+  },
+  "ch.5.mix.sends.9": {
+    "node": {}
+  },
+  "ch.5.peq": {
+    "node": {}
+  },
+  "ch.5.peq.selBand": {
+    "node": {}
+  },
+  "ch.5.peq.bands": {
+    "node": {}
+  },
+  "ch.5.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.5.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.5.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.5.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.5.info": {
+    "node": {}
+  },
+  "ch.6": {
+    "node": {}
+  },
+  "ch.6.rawEq": {
+    "node": {}
+  },
+  "ch.6.amm": {
+    "node": {}
+  },
+  "ch.6.headamp": {
+    "node": {}
+  },
+  "ch.6.grp": {
+    "node": {}
+  },
+  "ch.6.grp.dca": {
+    "node": {}
+  },
+  "ch.6.grp.mute": {
+    "node": {}
+  },
+  "ch.6.cfg": {
+    "node": {}
+  },
+  "ch.6.link": {
+    "node": {}
+  },
+  "ch.6.levelData": {
+    "node": {}
+  },
+  "ch.6.levelData.0": {
+    "node": {}
+  },
+  "ch.6.levelData.1": {
+    "node": {}
+  },
+  "ch.6.levelData.2": {
+    "node": {}
+  },
+  "ch.6.levelData.3": {
+    "node": {}
+  },
+  "ch.6.levelData.-1": {
+    "node": {}
+  },
+  "ch.6.levelData.4": {
+    "node": {}
+  },
+  "ch.6.levelData.5": {
+    "node": {}
+  },
+  "ch.6.levelData.-2": {
+    "node": {}
+  },
+  "ch.6.levelData.6": {
+    "node": {}
+  },
+  "ch.6.levelData.7": {
+    "node": {}
+  },
+  "ch.6.levelData.8": {
+    "node": {}
+  },
+  "ch.6.levelData.9": {
+    "node": {}
+  },
+  "ch.6.routing": {
+    "node": {}
+  },
+  "ch.6.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.6.preamp": {
+    "node": {}
+  },
+  "ch.6.preamp.filter": {
+    "node": {}
+  },
+  "ch.6.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.6.dyn": {
+    "node": {}
+  },
+  "ch.6.dyn.filter": {
+    "node": {}
+  },
+  "ch.6.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.6.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.6.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.6.gate": {
+    "node": {}
+  },
+  "ch.6.gate.filter": {
+    "node": {}
+  },
+  "ch.6.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.6.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.6.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.6.insX": {
+    "node": {}
+  },
+  "ch.6.insX.0": {
+    "node": {}
+  },
+  "ch.6.mix": {
+    "node": {}
+  },
+  "ch.6.mix.sends": {
+    "node": {}
+  },
+  "ch.6.mix.sends.0": {
+    "node": {}
+  },
+  "ch.6.mix.sends.1": {
+    "node": {}
+  },
+  "ch.6.mix.sends.2": {
+    "node": {}
+  },
+  "ch.6.mix.sends.3": {
+    "node": {}
+  },
+  "ch.6.mix.sends.4": {
+    "node": {}
+  },
+  "ch.6.mix.sends.5": {
+    "node": {}
+  },
+  "ch.6.mix.sends.6": {
+    "node": {}
+  },
+  "ch.6.mix.sends.7": {
+    "node": {}
+  },
+  "ch.6.mix.sends.8": {
+    "node": {}
+  },
+  "ch.6.mix.sends.9": {
+    "node": {}
+  },
+  "ch.6.peq": {
+    "node": {}
+  },
+  "ch.6.peq.selBand": {
+    "node": {}
+  },
+  "ch.6.peq.bands": {
+    "node": {}
+  },
+  "ch.6.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.6.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.6.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.6.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.6.info": {
+    "node": {}
+  },
+  "ch.7": {
+    "node": {}
+  },
+  "ch.7.rawEq": {
+    "node": {}
+  },
+  "ch.7.amm": {
+    "node": {}
+  },
+  "ch.7.headamp": {
+    "node": {}
+  },
+  "ch.7.grp": {
+    "node": {}
+  },
+  "ch.7.grp.dca": {
+    "node": {}
+  },
+  "ch.7.grp.mute": {
+    "node": {}
+  },
+  "ch.7.cfg": {
+    "node": {}
+  },
+  "ch.7.link": {
+    "node": {}
+  },
+  "ch.7.levelData": {
+    "node": {}
+  },
+  "ch.7.levelData.0": {
+    "node": {}
+  },
+  "ch.7.levelData.1": {
+    "node": {}
+  },
+  "ch.7.levelData.2": {
+    "node": {}
+  },
+  "ch.7.levelData.3": {
+    "node": {}
+  },
+  "ch.7.levelData.-1": {
+    "node": {}
+  },
+  "ch.7.levelData.4": {
+    "node": {}
+  },
+  "ch.7.levelData.5": {
+    "node": {}
+  },
+  "ch.7.levelData.-2": {
+    "node": {}
+  },
+  "ch.7.levelData.6": {
+    "node": {}
+  },
+  "ch.7.levelData.7": {
+    "node": {}
+  },
+  "ch.7.levelData.8": {
+    "node": {}
+  },
+  "ch.7.levelData.9": {
+    "node": {}
+  },
+  "ch.7.routing": {
+    "node": {}
+  },
+  "ch.7.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.7.preamp": {
+    "node": {}
+  },
+  "ch.7.preamp.filter": {
+    "node": {}
+  },
+  "ch.7.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.7.dyn": {
+    "node": {}
+  },
+  "ch.7.dyn.filter": {
+    "node": {}
+  },
+  "ch.7.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.7.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.7.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.7.gate": {
+    "node": {}
+  },
+  "ch.7.gate.filter": {
+    "node": {}
+  },
+  "ch.7.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.7.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.7.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.7.insX": {
+    "node": {}
+  },
+  "ch.7.insX.0": {
+    "node": {}
+  },
+  "ch.7.mix": {
+    "node": {}
+  },
+  "ch.7.mix.sends": {
+    "node": {}
+  },
+  "ch.7.mix.sends.0": {
+    "node": {}
+  },
+  "ch.7.mix.sends.1": {
+    "node": {}
+  },
+  "ch.7.mix.sends.2": {
+    "node": {}
+  },
+  "ch.7.mix.sends.3": {
+    "node": {}
+  },
+  "ch.7.mix.sends.4": {
+    "node": {}
+  },
+  "ch.7.mix.sends.5": {
+    "node": {}
+  },
+  "ch.7.mix.sends.6": {
+    "node": {}
+  },
+  "ch.7.mix.sends.7": {
+    "node": {}
+  },
+  "ch.7.mix.sends.8": {
+    "node": {}
+  },
+  "ch.7.mix.sends.9": {
+    "node": {}
+  },
+  "ch.7.peq": {
+    "node": {}
+  },
+  "ch.7.peq.selBand": {
+    "node": {}
+  },
+  "ch.7.peq.bands": {
+    "node": {}
+  },
+  "ch.7.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.7.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.7.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.7.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.7.info": {
+    "node": {}
+  },
+  "ch.8": {
+    "node": {}
+  },
+  "ch.8.rawEq": {
+    "node": {}
+  },
+  "ch.8.amm": {
+    "node": {}
+  },
+  "ch.8.headamp": {
+    "node": {}
+  },
+  "ch.8.grp": {
+    "node": {}
+  },
+  "ch.8.grp.dca": {
+    "node": {}
+  },
+  "ch.8.grp.mute": {
+    "node": {}
+  },
+  "ch.8.cfg": {
+    "node": {}
+  },
+  "ch.8.link": {
+    "node": {}
+  },
+  "ch.8.levelData": {
+    "node": {}
+  },
+  "ch.8.levelData.0": {
+    "node": {}
+  },
+  "ch.8.levelData.1": {
+    "node": {}
+  },
+  "ch.8.levelData.2": {
+    "node": {}
+  },
+  "ch.8.levelData.3": {
+    "node": {}
+  },
+  "ch.8.levelData.-1": {
+    "node": {}
+  },
+  "ch.8.levelData.4": {
+    "node": {}
+  },
+  "ch.8.levelData.5": {
+    "node": {}
+  },
+  "ch.8.levelData.-2": {
+    "node": {}
+  },
+  "ch.8.levelData.6": {
+    "node": {}
+  },
+  "ch.8.levelData.7": {
+    "node": {}
+  },
+  "ch.8.levelData.8": {
+    "node": {}
+  },
+  "ch.8.levelData.9": {
+    "node": {}
+  },
+  "ch.8.routing": {
+    "node": {}
+  },
+  "ch.8.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.8.preamp": {
+    "node": {}
+  },
+  "ch.8.preamp.filter": {
+    "node": {}
+  },
+  "ch.8.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.8.dyn": {
+    "node": {}
+  },
+  "ch.8.dyn.filter": {
+    "node": {}
+  },
+  "ch.8.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.8.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.8.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.8.gate": {
+    "node": {}
+  },
+  "ch.8.gate.filter": {
+    "node": {}
+  },
+  "ch.8.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.8.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.8.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.8.insX": {
+    "node": {}
+  },
+  "ch.8.insX.0": {
+    "node": {}
+  },
+  "ch.8.mix": {
+    "node": {}
+  },
+  "ch.8.mix.sends": {
+    "node": {}
+  },
+  "ch.8.mix.sends.0": {
+    "node": {}
+  },
+  "ch.8.mix.sends.1": {
+    "node": {}
+  },
+  "ch.8.mix.sends.2": {
+    "node": {}
+  },
+  "ch.8.mix.sends.3": {
+    "node": {}
+  },
+  "ch.8.mix.sends.4": {
+    "node": {}
+  },
+  "ch.8.mix.sends.5": {
+    "node": {}
+  },
+  "ch.8.mix.sends.6": {
+    "node": {}
+  },
+  "ch.8.mix.sends.7": {
+    "node": {}
+  },
+  "ch.8.mix.sends.8": {
+    "node": {}
+  },
+  "ch.8.mix.sends.9": {
+    "node": {}
+  },
+  "ch.8.peq": {
+    "node": {}
+  },
+  "ch.8.peq.selBand": {
+    "node": {}
+  },
+  "ch.8.peq.bands": {
+    "node": {}
+  },
+  "ch.8.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.8.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.8.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.8.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.8.info": {
+    "node": {}
+  },
+  "ch.9": {
+    "node": {}
+  },
+  "ch.9.rawEq": {
+    "node": {}
+  },
+  "ch.9.amm": {
+    "node": {}
+  },
+  "ch.9.headamp": {
+    "node": {}
+  },
+  "ch.9.grp": {
+    "node": {}
+  },
+  "ch.9.grp.dca": {
+    "node": {}
+  },
+  "ch.9.grp.mute": {
+    "node": {}
+  },
+  "ch.9.cfg": {
+    "node": {}
+  },
+  "ch.9.link": {
+    "node": {}
+  },
+  "ch.9.levelData": {
+    "node": {}
+  },
+  "ch.9.levelData.0": {
+    "node": {}
+  },
+  "ch.9.levelData.1": {
+    "node": {}
+  },
+  "ch.9.levelData.2": {
+    "node": {}
+  },
+  "ch.9.levelData.3": {
+    "node": {}
+  },
+  "ch.9.levelData.-1": {
+    "node": {}
+  },
+  "ch.9.levelData.4": {
+    "node": {}
+  },
+  "ch.9.levelData.5": {
+    "node": {}
+  },
+  "ch.9.levelData.-2": {
+    "node": {}
+  },
+  "ch.9.levelData.6": {
+    "node": {}
+  },
+  "ch.9.levelData.7": {
+    "node": {}
+  },
+  "ch.9.levelData.8": {
+    "node": {}
+  },
+  "ch.9.levelData.9": {
+    "node": {}
+  },
+  "ch.9.routing": {
+    "node": {}
+  },
+  "ch.9.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.9.preamp": {
+    "node": {}
+  },
+  "ch.9.preamp.filter": {
+    "node": {}
+  },
+  "ch.9.preamp.filter.0": {
+    "node": {
+      "defaultFilterType": 3
+    }
+  },
+  "ch.9.dyn": {
+    "node": {}
+  },
+  "ch.9.dyn.filter": {
+    "node": {}
+  },
+  "ch.9.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.9.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.9.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.9.gate": {
+    "node": {}
+  },
+  "ch.9.gate.filter": {
+    "node": {}
+  },
+  "ch.9.gate.filter.filters": {
+    "node": {}
+  },
+  "ch.9.gate.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.9.gate.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.9.insX": {
+    "node": {}
+  },
+  "ch.9.insX.0": {
+    "node": {}
+  },
+  "ch.9.mix": {
+    "node": {}
+  },
+  "ch.9.mix.sends": {
+    "node": {}
+  },
+  "ch.9.mix.sends.0": {
+    "node": {}
+  },
+  "ch.9.mix.sends.1": {
+    "node": {}
+  },
+  "ch.9.mix.sends.2": {
+    "node": {}
+  },
+  "ch.9.mix.sends.3": {
+    "node": {}
+  },
+  "ch.9.mix.sends.4": {
+    "node": {}
+  },
+  "ch.9.mix.sends.5": {
+    "node": {}
+  },
+  "ch.9.mix.sends.6": {
+    "node": {}
+  },
+  "ch.9.mix.sends.7": {
+    "node": {}
+  },
+  "ch.9.mix.sends.8": {
+    "node": {}
+  },
+  "ch.9.mix.sends.9": {
+    "node": {}
+  },
+  "ch.9.peq": {
+    "node": {}
+  },
+  "ch.9.peq.selBand": {
+    "node": {}
+  },
+  "ch.9.peq.bands": {
+    "node": {}
+  },
+  "ch.9.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.9.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.9.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.9.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.9.info": {
+    "node": {}
+  },
+  "ch.20": {
+    "node": {}
+  },
+  "ch.20.rawEq": {
+    "node": {}
+  },
+  "ch.20.routing": {
+    "node": {}
+  },
+  "ch.20.routing.srcCfg": {
+    "node": {}
+  },
+  "ch.20.grp": {
+    "node": {}
+  },
+  "ch.20.grp.dca": {
+    "node": {}
+  },
+  "ch.20.grp.mute": {
+    "node": {}
+  },
+  "ch.20.preamp": {
+    "node": {}
+  },
+  "ch.20.cfg": {
+    "node": {}
+  },
+  "ch.20.mix": {
+    "node": {}
+  },
+  "ch.20.mix.sends": {
+    "node": {}
+  },
+  "ch.20.mix.sends.0": {
+    "node": {}
+  },
+  "ch.20.mix.sends.1": {
+    "node": {}
+  },
+  "ch.20.mix.sends.2": {
+    "node": {}
+  },
+  "ch.20.mix.sends.3": {
+    "node": {}
+  },
+  "ch.20.mix.sends.4": {
+    "node": {}
+  },
+  "ch.20.mix.sends.5": {
+    "node": {}
+  },
+  "ch.20.mix.sends.6": {
+    "node": {}
+  },
+  "ch.20.mix.sends.7": {
+    "node": {}
+  },
+  "ch.20.mix.sends.8": {
+    "node": {}
+  },
+  "ch.20.mix.sends.9": {
+    "node": {}
+  },
+  "ch.20.peq": {
+    "node": {}
+  },
+  "ch.20.peq.selBand": {
+    "node": {}
+  },
+  "ch.20.peq.bands": {
+    "node": {}
+  },
+  "ch.20.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.20.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.20.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.20.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.20.levelData": {
+    "node": {}
+  },
+  "ch.20.levelData.0": {
+    "node": {}
+  },
+  "ch.20.levelData.1": {
+    "node": {}
+  },
+  "ch.20.levelData.2": {
+    "node": {}
+  },
+  "ch.20.levelData.3": {
+    "node": {}
+  },
+  "ch.20.levelData.-1": {
+    "node": {}
+  },
+  "ch.20.levelData.4": {
+    "node": {}
+  },
+  "ch.20.levelData.5": {
+    "node": {}
+  },
+  "ch.20.levelData.6": {
+    "node": {}
+  },
+  "ch.20.levelData.7": {
+    "node": {}
+  },
+  "ch.20.levelData.8": {
+    "node": {}
+  },
+  "ch.20.levelData.9": {
+    "node": {}
+  },
+  "ch.20.info": {
+    "node": {}
+  },
+  "ch.21": {
+    "node": {}
+  },
+  "ch.21.rawEq": {
+    "node": {}
+  },
+  "ch.21.grp": {
+    "node": {}
+  },
+  "ch.21.grp.dca": {
+    "node": {}
+  },
+  "ch.21.grp.mute": {
+    "node": {}
+  },
+  "ch.21.cfg": {
+    "node": {}
+  },
+  "ch.21.dyn": {
+    "node": {}
+  },
+  "ch.21.dyn.filter": {
+    "node": {}
+  },
+  "ch.21.dyn.filter.filters": {
+    "node": {}
+  },
+  "ch.21.dyn.filter.filters.bands": {
+    "node": {}
+  },
+  "ch.21.dyn.filter.filters.bands.0": {
+    "node": {
+      "defaultFilterType": 6
+    }
+  },
+  "ch.21.link": {
+    "node": {}
+  },
+  "ch.21.insX": {
+    "node": {}
+  },
+  "ch.21.insX.0": {
+    "node": {}
+  },
+  "ch.21.mix": {
+    "node": {}
+  },
+  "ch.21.peq": {
+    "node": {}
+  },
+  "ch.21.peq.selBand": {
+    "node": {}
+  },
+  "ch.21.peq.bands": {
+    "node": {}
+  },
+  "ch.21.peq.bands.0": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.peq.bands.1": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.peq.bands.2": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.peq.bands.3": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.peq.bands.4": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.peq.bands.5": {
+    "node": {
+      "defaultFilterType": 0
+    }
+  },
+  "ch.21.levelData": {
+    "node": {}
+  },
+  "ch.21.levelData.-1": {
+    "node": {}
+  },
+  "ch.21.info": {
+    "node": {}
+  },
+  "automix": {
+    "node": {}
+  },
+  "automix.mixers": {
+    "node": {}
+  },
+  "automix.mixers.0": {
+    "node": {}
+  },
+  "automix.mixers.1": {
+    "node": {}
+  },
+  "idca": {
+    "node": {}
+  },
+  "idca.0": {
+    "node": {}
+  },
+  "idca.0.cfg": {
+    "node": {}
+  },
+  "idca.0.idca": {
+    "node": {}
+  },
+  "idca.0.mix": {
+    "node": {}
+  },
+  "idca.0.info": {
+    "node": {}
+  },
+  "idca.1": {
+    "node": {}
+  },
+  "idca.1.cfg": {
+    "node": {}
+  },
+  "idca.1.idca": {
+    "node": {}
+  },
+  "idca.1.mix": {
+    "node": {}
+  },
+  "idca.1.info": {
+    "node": {}
+  },
+  "idca.2": {
+    "node": {}
+  },
+  "idca.2.cfg": {
+    "node": {}
+  },
+  "idca.2.idca": {
+    "node": {}
+  },
+  "idca.2.mix": {
+    "node": {}
+  },
+  "idca.2.levelData": {
+    "node": {}
+  },
+  "idca.2.levelData.-1": {
+    "node": {}
+  },
+  "idca.2.info": {
+    "node": {}
+  },
+  "monitor": {
+    "node": {}
+  },
+  "monitor.ch": {
+    "node": {}
+  },
+  "monitor.ch.0": {
+    "node": {}
+  },
+  "monitor.ch.0.src": {
+    "node": {}
+  },
+  "monitor.ch.0.dim": {
+    "node": {}
+  },
+  "mutegrp": {
+    "node": {}
+  },
+  "mutegrp.0": {
+    "node": {}
+  },
+  "mutegrp.1": {
+    "node": {}
+  },
+  "mutegrp.2": {
+    "node": {}
+  },
+  "mutegrp.3": {
+    "node": {}
+  },
+  "rta": {
+    "node": {}
+  },
+  "outRouting": {
+    "node": {}
+  },
+  "outRouting.ultranet": {
+    "node": {}
+  },
+  "outRouting.ultranet.11": {
+    "node": {}
+  },
+  "outRouting.ultranet.12": {
+    "node": {}
+  },
+  "outRouting.ultranet.13": {
+    "node": {}
+  },
+  "outRouting.ultranet.14": {
+    "node": {}
+  },
+  "outRouting.ultranet.15": {
+    "node": {}
+  },
+  "outRouting.ultranet.0": {
+    "node": {}
+  },
+  "outRouting.ultranet.1": {
+    "node": {}
+  },
+  "outRouting.ultranet.2": {
+    "node": {}
+  },
+  "outRouting.ultranet.3": {
+    "node": {}
+  },
+  "outRouting.ultranet.4": {
+    "node": {}
+  },
+  "outRouting.ultranet.5": {
+    "node": {}
+  },
+  "outRouting.ultranet.6": {
+    "node": {}
+  },
+  "outRouting.ultranet.7": {
+    "node": {}
+  },
+  "outRouting.ultranet.8": {
+    "node": {}
+  },
+  "outRouting.ultranet.9": {
+    "node": {}
+  },
+  "outRouting.ultranet.10": {
+    "node": {}
+  },
+  "outRouting.aux": {
+    "node": {}
+  },
+  "outRouting.aux.0": {
+    "node": {}
+  },
+  "outRouting.aux.1": {
+    "node": {}
+  },
+  "outRouting.aux.2": {
+    "node": {}
+  },
+  "outRouting.aux.3": {
+    "node": {}
+  },
+  "outRouting.aux.4": {
+    "node": {}
+  },
+  "outRouting.aux.5": {
+    "node": {}
+  },
+  "outRouting.usbIf": {
+    "node": {}
+  },
+  "outRouting.usbIf.11": {
+    "node": {}
+  },
+  "outRouting.usbIf.12": {
+    "node": {}
+  },
+  "outRouting.usbIf.13": {
+    "node": {}
+  },
+  "outRouting.usbIf.14": {
+    "node": {}
+  },
+  "outRouting.usbIf.15": {
+    "node": {}
+  },
+  "outRouting.usbIf.16": {
+    "node": {}
+  },
+  "outRouting.usbIf.17": {
+    "node": {}
+  },
+  "outRouting.usbIf.0": {
+    "node": {}
+  },
+  "outRouting.usbIf.1": {
+    "node": {}
+  },
+  "outRouting.usbIf.2": {
+    "node": {}
+  },
+  "outRouting.usbIf.3": {
+    "node": {}
+  },
+  "outRouting.usbIf.4": {
+    "node": {}
+  },
+  "outRouting.usbIf.5": {
+    "node": {}
+  },
+  "outRouting.usbIf.6": {
+    "node": {}
+  },
+  "outRouting.usbIf.7": {
+    "node": {}
+  },
+  "outRouting.usbIf.8": {
+    "node": {}
+  },
+  "outRouting.usbIf.9": {
+    "node": {}
+  },
+  "outRouting.usbIf.10": {
+    "node": {}
+  },
+  "outRouting.main": {
+    "node": {}
+  },
+  "outRouting.main.0": {
+    "node": {}
+  },
+  "outRouting.main.1": {
+    "node": {}
+  }
+}

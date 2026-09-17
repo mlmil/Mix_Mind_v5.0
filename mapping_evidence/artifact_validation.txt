@@ -1,0 +1,2 @@
+19 requested files exist. Strict JSON parsed. 33 unique tool schemas. 3775 paths and leaf definitions agree. Enum references resolve. Markdown index links resolve. Source hashes unchanged after generation.
+Existing offline tests: 15 passed in 0.36s.

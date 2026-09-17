@@ -1,0 +1,160 @@
+{
+  "targets": [
+    {
+      "isChannel": true,
+      "name": "KYLE",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 0,
+      "channelIndex": 21
+    },
+    {
+      "isChannel": true,
+      "name": "MIKE",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 1,
+      "channelIndex": 22
+    },
+    {
+      "isChannel": true,
+      "name": "ALFRED",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 2,
+      "channelIndex": 23
+    },
+    {
+      "isChannel": true,
+      "name": "MATT",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 3,
+      "channelIndex": 24
+    },
+    {
+      "isChannel": true,
+      "name": "DAVE",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 4,
+      "channelIndex": 25
+    },
+    {
+      "isChannel": true,
+      "name": "SUB",
+      "channelType": {
+        "offset": 21,
+        "stereo": false,
+        "name": "Bus",
+        "count": 6,
+        "signalTargets": [],
+        "shortName": "Bus",
+        "type": 4
+      },
+      "id": 5,
+      "channelIndex": 26
+    },
+    {
+      "isChannel": true,
+      "name": "DELAY",
+      "channelType": {
+        "offset": 27,
+        "stereo": false,
+        "name": "FX Send",
+        "count": 4,
+        "signalTargets": [],
+        "shortName": "FxSnd",
+        "type": 2
+      },
+      "id": 6,
+      "channelIndex": 27
+    },
+    {
+      "isChannel": true,
+      "name": "REVERB",
+      "channelType": {
+        "offset": 27,
+        "stereo": false,
+        "name": "FX Send",
+        "count": 4,
+        "signalTargets": [],
+        "shortName": "FxSnd",
+        "type": 2
+      },
+      "id": 7,
+      "channelIndex": 28
+    },
+    {
+      "isChannel": true,
+      "name": "DELAY",
+      "channelType": {
+        "offset": 27,
+        "stereo": false,
+        "name": "FX Send",
+        "count": 4,
+        "signalTargets": [],
+        "shortName": "FxSnd",
+        "type": 2
+      },
+      "id": 8,
+      "channelIndex": 29
+    },
+    {
+      "isChannel": true,
+      "name": "FxSnd 4",
+      "channelType": {
+        "offset": 27,
+        "stereo": false,
+        "name": "FX Send",
+        "count": 4,
+        "signalTargets": [],
+        "shortName": "FxSnd",
+        "type": 2
+      },
+      "id": 9,
+      "channelIndex": 30
+    },
+    {
+      "isChannel": false,
+      "name": "Gain",
+      "id": -2,
+      "channelIndex": 0
+    }
+  ]
+}

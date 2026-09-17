@@ -1,0 +1,282 @@
+{
+  "totalChannels": 36,
+  "channelColors": [
+    {
+      "name": "Black",
+      "styleClass": "mixer-black"
+    },
+    {
+      "name": "Red",
+      "styleClass": "mixer-red"
+    },
+    {
+      "name": "Green",
+      "styleClass": "mixer-green"
+    },
+    {
+      "name": "Yellow",
+      "styleClass": "mixer-yellow"
+    },
+    {
+      "name": "Blue",
+      "styleClass": "mixer-blue"
+    },
+    {
+      "name": "Magenta",
+      "styleClass": "mixer-magenta"
+    },
+    {
+      "name": "Cyan",
+      "styleClass": "mixer-cyan"
+    },
+    {
+      "name": "White",
+      "styleClass": "mixer-white"
+    },
+    {
+      "name": "Black Inv",
+      "styleClass": "mixer-black-inv"
+    },
+    {
+      "name": "Red Inv",
+      "styleClass": "mixer-red-inv"
+    },
+    {
+      "name": "Green Inv",
+      "styleClass": "mixer-green-inv"
+    },
+    {
+      "name": "Yellow Inv",
+      "styleClass": "mixer-yellow-inv"
+    },
+    {
+      "name": "Blue Inv",
+      "styleClass": "mixer-blue-inv"
+    },
+    {
+      "name": "Magenta Inv",
+      "styleClass": "mixer-magenta-inv"
+    },
+    {
+      "name": "Cyan Inv",
+      "styleClass": "mixer-cyan-inv"
+    },
+    {
+      "name": "White Inv",
+      "styleClass": "mixer-white-inv"
+    }
+  ],
+  "channelTypes": [
+    {
+      "offset": 0,
+      "stereo": false,
+      "name": "Input",
+      "count": 16,
+      "signalTargets": [
+        {
+          "count": 6,
+          "channelType": {
+            "stereo": false,
+            "type": 4
+          }
+        },
+        {
+          "count": 4,
+          "channelType": {
+            "stereo": false,
+            "type": 2
+          }
+        }
+      ],
+      "shortName": "Ch",
+      "type": 0
+    },
+    {
+      "offset": 16,
+      "stereo": true,
+      "name": "Aux",
+      "count": 1,
+      "signalTargets": [
+        {
+          "count": 6,
+          "channelType": {
+            "stereo": false,
+            "type": 4
+          }
+        },
+        {
+          "count": 4,
+          "channelType": {
+            "stereo": false,
+            "type": 2
+          }
+        }
+      ],
+      "shortName": "Aux",
+      "type": 1
+    },
+    {
+      "offset": 17,
+      "stereo": true,
+      "name": "FX Return",
+      "count": 4,
+      "signalTargets": [
+        {
+          "count": 6,
+          "channelType": {
+            "stereo": false,
+            "type": 4
+          }
+        },
+        {
+          "count": 4,
+          "channelType": {
+            "stereo": false,
+            "type": 2
+          }
+        }
+      ],
+      "shortName": "FxRet",
+      "type": 3
+    },
+    {
+      "offset": 21,
+      "stereo": false,
+      "name": "Bus",
+      "count": 6,
+      "signalTargets": [],
+      "shortName": "Bus",
+      "type": 4
+    },
+    {
+      "offset": 27,
+      "stereo": false,
+      "name": "FX Send",
+      "count": 4,
+      "signalTargets": [],
+      "shortName": "FxSnd",
+      "type": 2
+    },
+    {
+      "offset": 31,
+      "stereo": true,
+      "name": "Main",
+      "count": 1,
+      "signalTargets": [],
+      "shortName": "Main",
+      "type": 6
+    },
+    {
+      "offset": 32,
+      "stereo": false,
+      "name": "DCA",
+      "count": 4,
+      "signalTargets": [],
+      "shortName": "DCA",
+      "type": 8
+    }
+  ],
+  "rtaFrequencies": [
+    20.000002,
+    21.430387,
+    22.963072,
+    24.60538,
+    26.365137,
+    28.250751,
+    30.271225,
+    32.4362,
+    34.75602,
+    37.241745,
+    39.905247,
+    42.75924,
+    45.81736,
+    49.09418,
+    52.60536,
+    56.367657,
+    60.399044,
+    64.718735,
+    69.34739,
+    74.30706,
+    79.621445,
+    85.31591,
+    91.41766,
+    97.95581,
+    104.96154,
+    112.46831,
+    120.511955,
+    129.13087,
+    138.36623,
+    148.26207,
+    158.86566,
+    170.2276,
+    182.40215,
+    195.44742,
+    209.42566,
+    224.40363,
+    240.4528,
+    257.6498,
+    276.07672,
+    295.8215,
+    316.97845,
+    339.6485,
+    363.9399,
+    389.9686,
+    417.85886,
+    447.7438,
+    479.7661,
+    514.0786,
+    550.8451,
+    590.24115,
+    632.4547,
+    677.6874,
+    726.1555,
+    778.0892,
+    833.7379,
+    893.3658,
+    957.2591,
+    1025.721,
+    1099.0803,
+    1177.685,
+    1261.913,
+    1352.1632,
+    1448.8698,
+    1552.491,
+    1663.5248,
+    1782.4978,
+    1909.9818,
+    2046.581,
+    2192.9521,
+    2349.789,
+    2517.8457,
+    2697.9187,
+    2890.8733,
+    3097.6245,
+    3319.1663,
+    3556.5483,
+    3810.912,
+    4083.4634,
+    4375.512,
+    4688.443,
+    5023.7593,
+    5383.052,
+    5768.047,
+    6180.5693,
+    6622.603,
+    7096.242,
+    7603.7646,
+    8147.575,
+    8730.288,
+    9354.667,
+    10023.711,
+    10740.594,
+    11508.759,
+    12331.85,
+    13213.821,
+    14158.855,
+    15171.494,
+    16256.539,
+    17419.205,
+    18665.002
+  ],
+  "dbfsOffset": 0.0
+}
